@@ -1,0 +1,117 @@
+{
+  "nav":{
+    "menu1": "Block Chain Browsers",
+    "menu2": "White Paper",
+    "menu3": "Solution",
+    "menu4": "Common Problem",
+    "menu5": "Contact Us",
+    "menu6": "English"
+  },
+  "banner":{
+    "banner1":{
+      "title":"",
+      "des":"HealthTrace is a product information traceability platform integrating IOT Internet of things and block chain technology.",
+      "link":"white paper"
+    },
+    "banner2":{
+      "title":"HTC block chain browsers",
+      "des":"The next generation to the centralization platform",
+      "link":"Browsers"
+    },
+    "banner3":{
+      "title":"Tracing the source of milk supply chain",
+      "des":"Tracking and management from cow purchase to milk collection, preservation, transportation and processing.",
+      "link":"View the case"
+    },
+    "banner4":{
+      "title":"Traceability of bottled water supply chain",
+      "des":"Through tracing the source management of drinking water industry chain, we should track and monitor every link to eliminate the hidden danger of drinking water health and safety.",
+      "link":"View the case"
+    }
+  },
+  "whyUs":{
+    "title":"Why choose us?",
+    "list":{
+      "des1":"Focus on the food safety industry,tailor the traceability scheme for customers.",
+      "des2":"Create food safety industry, ecological chain,and enhance business efficiency.",
+      "des3":"To have a endorsement of a listed company",
+      "des4":"A number of financial institutions and well-known platform"
+    }
+  },
+  "advantage":{
+    "title":"Core technical advantages",
+    "desc":"HealthTrace combines IOT and block chain technology to achieve the whole industry traceability coverage from supply chain to terminal consumers. It also subverts the limitations of traditional Traceability Technology and realizes the relevant data can not be changed, and the counterfeit products can not be duplicated. The entry of intelligent contract technology reduces transaction cost and reduces trust risk in transaction process."
+  },
+  "target":{
+    "title":"The goal of HealthTrace",
+    "desc":"The goal of HealthTrace is to build a trustworthy and safe food quality supervision ecosystem using IOT and block chaining technology."
+  },
+  "member": {
+    "title": "TEAM MEMBER",
+    "secTitle": "团队成员",
+    "list": {
+      "person1":{
+        "name": "John Wu",
+        "job": "CEO",
+        "info": "Australian senior certified public accountant, Royal senior Chartered Management Accountant and senior licensed accountant. He has been a major financial position in a number of multinational companies. Now he is a full-time consultant of the Australian Institute of certified public accountants."
+      },
+      "person2":{
+        "name": "Brad Fornby",
+        "job": "CTO",
+        "info": "Australian finance and technology members jointly lead their block chain sub committee. Focus on block chain and financial services. It has over 18 years of information technology and over 10 years experience in financial services technology."
+      },
+      "person3":{
+        "name": "Jessie Tao",
+        "job": "CFO",
+        "info": "A certified public accountant or a tax partner. More than 10 years of four major accounting firms experience. Have a large number of industry external audit experience. Good at external reporting, financial analysis, tax and legal compliance and other professional services."
+      }
+    }
+  },
+  "support":{
+    "title": "PERSONAL SUPPORT",
+    "secTitle": "个人支持",
+    "list":{
+      "item1":{
+        "name":"Hon.Andrew Stoner",
+        "info":"He served as governor of New South Wales, parliamentarians, directors and advisors of many companies."
+      },
+      "item2":{
+        "name":"Albert Xie",
+        "info":"Investment banking background, Australia north side fund president and deputy director of the Chinese Association of Australia long investment"
+      },
+      "item3":{
+        "name":"phillip-grundy",
+        "info":"Good at IPO listing and financing business, over 10 years experience in legal work."
+      },
+      "item4":{
+        "name":"Justyn Stedwell",
+        "info":"It has been working for more than 8 years as a secretary of a board of directors of a listed company, and is also a director of several listed companies in the Australian Stock Exchange."
+      },
+      "item5":{
+        "name":"Sam Novak",
+        "info":"Master of finance, senior investment banker, 24 years of financial experience, has been held in a number of companies as senior partners, chief executives and other important positions."
+      },
+      "item6":{
+        "name":"Tim Overton",
+        "info":"Australian real estate expert, engaged in China and Australia Trade and investment for more than 20 years, has served as Australia's Dali aluminum general manager, Australian G6 Group Chairman, Australia Belle real estate company partner"
+      },
+      "item7":{
+        "name":"Jaylin Mao",
+        "info":"Master of marketing and human resource business, has RG146 financial certificate, Secretary General of Australia China Business Association, has held many important positions in many companies."
+      },
+      "item8":{
+        "name":"Caroline Hong",
+        "info":"A member of the board of directors of Australia, and the first Asian woman to award the members of the board of directors of Australia."
+      }
+    }
+  },
+  "partner":{
+    "title": "COOPERATION PARTNER",
+    "secTitle": "企业支持"
+  },
+  "contact":{
+    "phone": "Tel：+61 412 927 796",
+    "email": "Email：webmaster@jaz-int",
+    "adress": "Adress：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "nav":{
+    "menu1": "区块链浏览器",
+    "menu2": "白皮书",
+    "menu3": "解决方案",
+    "menu4": "常见问题",
+    "menu5": "联系我们",
+    "menu6": "简体中文"
+  },
+  "banner":{
+    "banner1":{
+      "title":"",
+      "des":"HealthTrace是集IOT物联网与区块链技术为一体的产品信息溯源平台",
+      "link":"查看白皮书"
+    },
+    "banner2":{
+      "title":"HTC区块链浏览器",
+      "des":"下一代去中心化平台",
+      "link":"访问浏览器"
+    },
+    "banner3":{
+      "title":"奶源供应链溯源",
+      "des":"从奶牛采购，到奶源采集，保存运输，加工品检全过程进行追踪管理",
+      "link":"查看案例"
+    },
+    "banner4":{
+      "title":"瓶装水供应链溯源",
+      "des":"通过对饮用水全产业链的溯源管理，加强对各环节跟踪监测，消除饮用水健康安全隐患",
+      "link":"查看案例"
+    }
+  },
+  "whyUs":{
+    "title":"为什么选择我们?",
+    "list":{
+      "des1":"专注做食品安全行业<br/>为客户量身定做溯源方案",
+      "des2":"创造食品安全产业生态链<br/>提升商业效率",
+      "des3":"拥有上市公司做背书",
+      "des4":"多家金融机构以及知名人员站台"
+    }
+  },
+  "advantage":{
+    "title":"核心技术优势",
+    "desc":"HealthTrace结合IOT与区块链技术，做到从供应链到终端消费者的全产业溯源覆盖。且颠覆传统溯源技术的局限性，实现相关数据的不可更改，防伪产品的不可复制。智能合约技术的加入，降低交易成本，同时降低交易过程中的信任风险。"
+  },
+  "target":{
+    "title":"HealthTrace的目标",
+    "desc":"HealthTrace的目标是利用IOT与区块链技术，构建一个可信任的安全食品质量监督生态网"
+  },
+  "member": {
+    "title": "团队成员",
+    "secTitle": "TEAM MEMBER",
+    "list": {
+      "person1":{
+        "name": "John Wu",
+        "job": "CEO",
+        "info": "澳大利亚资深注册会计师、英国皇家资深特许管理会计师、全球资深特许管理会计师。曾在多个跨国公司担任财务要职。现担任澳洲注册会计师协会专职顾问。"
+      },
+      "person2":{
+        "name": "Brad Fornby",
+        "job": "CTO",
+        "info": "澳大利亚金融科技成员，联合领导其区块链小组委员会。专注区块链和金融服务领域。拥有超过18年信息技术超过10年金融服务技术从业经验。"
+      },
+      "person3":{
+        "name": "Jessie Tao",
+        "job": "CFO",
+        "info": "注册会计师、税务合伙人。超过10年四大会计事务所从业经验。拥有众多行业外部审计经验。擅长外部报告、财务分析、税务及法务合规等方面的专业服务。"
+      }
+    }
+  },
+  "support":{
+    "title": "个人支持",
+    "secTitle": "PERSONAL SUPPORT",
+    "list":{
+      "item1":{
+        "name":"Hon.Andrew Stoner",
+        "info":"曾任新南威尔士代州长、议会议员、多公司董事及顾问"
+      },
+      "item2":{
+        "name":"Albert Xie",
+        "info":"投行背景、澳大利亚北大未名基金总裁、澳大利亚华人投资协会副理事长"
+      },
+      "item3":{
+        "name":"phillip-grundy",
+        "info":"擅长IPO上市融资业务，超过10年法律工作从业经验"
+      },
+      "item4":{
+        "name":"Justyn Stedwell",
+        "info":"从事上市公司董事会秘书工作8余年，同时担任澳交所多家上市公司董事"
+      },
+      "item5":{
+        "name":"Sam Novak",
+        "info":"金融硕士，资深投资银行家，24年金融从业经验，曾在多家公司担任高级合伙人、首席执行官等重要职务"
+      },
+      "item6":{
+        "name":"Tim Overton",
+        "info":"澳洲地产专家，从事中澳贸易和投资20余年，曾担任澳洲达利铝业总经理，澳中G6集团董事长，澳洲Belle地产公司合伙人"
+      },
+      "item7":{
+        "name":"Jaylin Mao",
+        "info":"营销与人力资源商业硕士，拥有RG146金融证书，澳中企业联合会秘书长，曾在多家公司担任重要职务"
+      },
+      "item8":{
+        "name":"Caroline Hong",
+        "info":"澳大利亚公司董事协会会员、第一位授予澳大利亚公司董事协会会员的亚洲女性"
+      }
+    }
+  },
+  "partner":{
+    "title": "企业支持",
+    "secTitle": "COOPERATION PARTNER"
+  },
+  "contact":{
+    "phone": "电话：+61 412 927 796",
+    "email": "邮箱：webmaster@jaz-int",
+    "adress": "地址：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia"
+  }
+}

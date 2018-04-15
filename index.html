@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery/jquery-2.2.4.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="lib/jquery.localize.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/language_cookie.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <div class="navBar">
+        <div class="logo"><img src="images/logo_header_home@2x.png"/></div>
+        <ul class="navigation">
+            <li class="active"><a href="#"  data-localize="nav.menu1">区块链浏览器</a></li>
+            <li><a href="#"  data-localize="nav.menu2">白皮书</a></li>
+            <li><a href="#"  data-localize="nav.menu3">解决方案</a></li>
+            <li><a href="#"  data-localize="nav.menu4">常见问题</a></li>
+            <li><a href="#"  data-localize="nav.menu5">联系我们</a></li>
+            <li class="language">
+                <img src="images/icon_flag_china@2x.png"/><a href="#"  data-localize="nav.menu6">简体中文</a>
+                <ul>
+                    <li class="zh"><img src="images/icon_flag_china@2x.png"/><a>简体中文</a></li>
+                    <li class="en"><img src="images/icon_flag_eng@2x.png"/><a>English</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/banner_1@2x.png" alt="HealthTrace">
+                    <div class="carousel-caption">
+                        <div><img src="images/logo_banner_black@2x.png"/></div>
+                        <p data-localize="banner.banner1.des">HealthTrace是集IOT物联网与区块链技术为一体的产品信息溯源平台</p>
+                        <a class="btn-custom" data-localize="banner.banner1.link">查看白皮书</a>
+                    </div>
+                </div>
+                <div class="item alignLeft">
+                    <img src="images/banner_2@2x.png" alt="HTC区块链浏览器">
+                    <div class="carousel-caption">
+                        <h1 data-localize="banner.banner2.title">HTC区块链浏览器</h1>
+                        <p data-localize="banner.banner2.des">下一代去中心化平台</p>
+                        <a class="btn-custom"  data-localize="banner.banner2.link">访问浏览器</a>
+                    </div>
+                </div>
+                <div class="item alignLeft">
+                    <img src="images/banner_3@2x.png" alt="奶源供应链溯源">
+                    <div class="carousel-caption">
+                        <h1 data-localize="banner.banner3.title">奶源供应链溯源</h1>
+                        <p data-localize="banner.banner3.des">从奶牛采购，到奶源采集，保存运输，加工品检全过程进行追踪管理</p>
+                        <a class="btn-custom" data-localize="banner.banner3.link">查看案例</a>
+                    </div>
+                </div>
+                <div class="item alignLeft">
+                    <img src="images/banner_4@2x.png" alt="瓶装水供应链溯源">
+                    <div class="carousel-caption">
+                        <h1 data-localize="banner.banner4.title">瓶装水供应链溯源</h1>
+                        <p data-localize="banner.banner4.des">通过对饮用水全产业链的溯源管理，加强对各环节跟踪监测，消除饮用水健康安全隐患</p>
+                        <a class="btn-custom" data-localize="banner.banner4.link">查看案例</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="whyUs">
+        <h3 data-localize="whyUs.title">为什么选择我们?</h3>
+        <div class="list">
+            <div class="item">
+                <div><img src="images/icon_choose1@2x.png"/></div>
+                <p data-localize="whyUs.list.des1">专注做食品安全行业<br/>为客户量身定做溯源方案</p>
+            </div>
+            <div class="item">
+                <div><img src="images/icon_choose2@2x.png"/></div>
+                <p data-localize="whyUs.list.des2">创造食品安全产业生态链<br/>提升商业效率</p>
+            </div>
+            <div class="item">
+                <div><img src="images/icon_choose3@2x.png"/></div>
+                <p data-localize="whyUs.list.des3">拥有上市公司做背书</p>
+            </div>
+            <div class="item">
+                <div><img src="images/icon_choose4@2x.png"/></div>
+                <p data-localize="whyUs.list.des4">多家金融机构以及知名人员站台</p>
+            </div>
+        </div>
+    </div>
+    <div class="advantage">
+        <div class="img">
+            <img src="images/icon_adv@2x.png"/>
+        </div>
+        <div class="des">
+            <h2 data-localize="advantage.title">核心技术优势</h2>
+            <p data-localize="advantage.desc">HealthTrace结合IOT与区块链技术，做到从供应链到终端消费者的全产业溯源覆盖。且颠覆传统溯源技术的局限性，实现相关数据的不可更改，防伪产品的不可复制。智能合约技术的加入，降低交易成本，同时降低交易过程中的信任风险。</p>
+        </div>
+    </div>
+    <div class="target">
+        <div class="des">
+            <h2 data-localize="target.title">HealthTrace的目标</h2>
+            <p data-localize="target.desc">HealthTrace的目标是利用IOT与区块链技术，构建一个可信任的安全食品质量监督生态网</p>
+        </div>
+        <div class="img" style="">
+            <img src="images/icon_goal@2x.png"/>
+        </div>
+    </div>
+
+
+
+    <div class="memberWrap">
+        <div class="member">
+            <div class="title">
+                <h3 data-localize="member.title">团队成员</h3>
+                <div class="sec-title" data-localize="member.secTitle">TEAM MEMBER</div>
+            </div>
+            <div class="list">
+                <div class="item">
+                    <div><img src="images/pic_team1@2x.png"/></div>
+                    <h4 data-localize="member.list.person1.name">John Wu</h4>
+                    <div class="job" data-localize="member.list.person1.job">CEO</div>
+                    <p data-localize="member.list.person1.info">澳大利亚资深注册会计师、英国皇家资深特许管理会计师、全球资深特许管理会计师。曾在多个跨国公司担任财务要职。现担任澳洲注册会计师协会专职顾问。</p>
+                </div>
+                <div class="item">
+                    <div><img src="images/pic_team2@2x.png"/></div>
+                    <h4 data-localize="member.list.person2.name">Brad Fornby</h4>
+                    <div class="job" data-localize="member.list.person2.job">CTO</div>
+                    <p data-localize="member.list.person2.info">澳大利亚金融科技成员，联合领导其区块链小组委员会。专注区块链和金融服务领域。拥有超过18年信息技术超过10年金融服务技术从业经验。</p>
+                </div>
+                <div class="item">
+                    <div><img src="images/pic_team3@2x.png"/></div>
+                    <h4 data-localize="member.list.person3.name">Jessie Tao</h4>
+                    <div class="job" data-localize="member.list.person3.job">CFO</div>
+                    <p data-localize="member.list.person3.info">注册会计师、税务合伙人。超过10年四大会计事务所从业经验。拥有众多行业外部审计经验。擅长外部报告、财务分析、税务及法务合规等方面的专业服务。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="supportWrap">
+        <div class="support">
+            <div class="title">
+                <h3 data-localize="support.title">个人支持</h3>
+                <div class="sec-title" data-localize="support.secTitle">PERSONAL SUPPORT</div>
+            </div>
+            <div id="slide3d" class="slide-carousel slide-3d">
+                <ul  class="item-list clearfix">
+                    <li class="item0">
+                        <div class="item-content">
+                            <a href="javascript:void(0);">
+                                <img class="cover-img" src="images/person_7@2x.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="item1">
+                        <div class="item-content">
+                            <a href="javascript:void(0);">
+                                <img class="cover-img" src="images/person_8@2x.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="item2">
+                        <div class="item-content">
+                            <a href="javascript:void(0);">
+                                <img class="cover-img" src="images/person_1@2x.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="item3">
+                        <div class="item-content">
+                            <a href="javascript:void(0);">
+                                <img class="cover-img" src="images/person_2@2x.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="item4">
+                        <div class="item-content">
+                            <a href="javascript:void(0);">
+                                <img class="cover-img" src="images/person_3@2x.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="item5">
+                        <div class="item-content">
+                            <a href="javascript:void(0);">
+                                <img class="cover-img" src="images/person_4@2x.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="item6">
+                        <div class="item-content">
+                            <a href="javascript:void(0);">
+                                <img class="cover-img" src="images/person_5@2x.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="item7">
+                        <div class="item-content">
+                            <a href="javascript:void(0);">
+                                <img class="cover-img" src="images/person_6@2x.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <!--controls-->
+                <div class="controls">
+                    <a  class="item-prev glyphicon glyphicon-menu-left" href="javascript:void(0);"></a>
+                    <a  class="item-next glyphicon glyphicon-menu-right" href="javascript:void(0);"></a>
+                </div>
+                <div class="desc">
+                    <div class="item">
+                        <div class="sliderDesc1" data-localize="support.list.item1.info">曾任新南威尔士代州长、议会议员、多公司董事及顾问</div>
+                        <div class="sliderDesc2" data-localize="support.list.item1.name">Hon.Andrew Stoner</div>
+                    </div>
+                    <div class="item">
+                        <div class="sliderDesc1" data-localize="support.list.item2.info">投行背景、澳大利亚北大未名基金总裁、澳大利亚华人投资协会副理事长</div>
+                        <div class="sliderDesc2" data-localize="support.list.item2.name">Albert Xie</div>
+                    </div>
+                    <div class="item">
+                        <div class="sliderDesc1" data-localize="support.list.item3.info">擅长IPO上市融资业务，超过10年法律工作从业经验</div>
+                        <div class="sliderDesc2" data-localize="support.list.item3.name">phillip-grundy</div>
+                    </div>
+                    <div class="item">
+                        <div class="sliderDesc1" data-localize="support.list.item4.info">从事上市公司董事会秘书工作8余年，同时担任澳交所多家上市公司董事</div>
+                        <div class="sliderDesc2" data-localize="support.list.item4.name">Justyn Stedwell</div>
+                    </div>
+                    <div class="item">
+                        <div class="sliderDesc1" data-localize="support.list.item5.info">金融硕士，资深投资银行家，24年金融从业经验，曾在多家公司担任高级合伙人、首席执行官等重要职务</div>
+                        <div class="sliderDesc2" data-localize="support.list.item5.name">Sam Novak</div>
+                    </div>
+                    <div class="item">
+                        <div class="sliderDesc1" data-localize="support.list.item6.info">澳洲地产专家，从事中澳贸易和投资20余年，曾担任澳洲达利铝业总经理，澳中G6集团董事长，澳洲Belle地产公司合伙人</div>
+                        <div class="sliderDesc2" data-localize="support.list.item6.name">Tim Overton</div>
+                    </div>
+                    <div class="item">
+                        <div class="sliderDesc1" data-localize="support.list.item7.info">营销与人力资源商业硕士，拥有RG146金融证书，澳中企业联合会秘书长，曾在多家公司担任重要职务</div>
+                        <div class="sliderDesc2" data-localize="support.list.item7.name">Jaylin Mao</div>
+                    </div>
+                    <div class="item">
+                        <div class="sliderDesc1" data-localize="support.list.item8.info">澳大利亚公司董事协会会员、第一位授予澳大利亚公司董事协会会员的亚洲女性</div>
+                        <div class="sliderDesc2" data-localize="support.list.item8.name">Caroline Hong</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partner">
+        <div class="title">
+            <h3 data-localize="partner.title">企业支持</h3>
+            <div class="sec-title" data-localize="partner.secTitle">COOPERATION PARTNER</div>
+        </div>
+        <div class="list">
+            <div class="item">
+                <div><img src="images/pic_partner_1@2x.png"/></div>
+            </div>
+            <div class="item">
+                <div><img src="images/pic_partner_2@2x.png"/></div>
+            </div>
+            <div class="item">
+                <div><img src="images/pic_partner_3@2x.png"/></div>
+            </div>
+            <div class="item">
+                <div><img src="images/pic_partner_4@2x.png"/></div>
+            </div>
+            <div class="item">
+                <div><img src="images/pic_partner_5@2x.png"/></div>
+            </div>
+        </div>
+    </div>
+    <div class="goTop">
+        <div class="img"></div>
+    </div>
+    <div class="footer">
+        <div class="contact">
+            <div class="left">
+                <p data-localize="contact.phone">电话：+61 412 927 796</p>
+                <p data-localize="contact.email">邮箱：webmaster@jaz-int</p>
+                <p data-localize="contact.adress">地址：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia</p>
+            </div>
+            <div class="right">
+                <p>
+                    <a class="github"></a>
+                    <a class="wechat"></a>
+                    <a class="twitter"></a>
+                    <a class="facebook"></a>
+                </p>
+            </div>
+        </div>
+        <div class="divide"></div>
+        <div class="copyright">
+            <div class="logoBottom"><img src="images/logo_bottom@2x.png"></div>
+            <p>COPYRIGHT (©) 2018 HealthTrace</p>
+        </div>
+    </div>
+    <script src="js/slide.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //个人支持人物简介切换显示
+            $('.slide-3d .desc .item').eq(0).show();
+            $('#slide3d').slideCarsousel({
+                slideType:'3d',
+                indicatorEvent:'mouseover',
+                callbackFunc:function(index){
+                    $('.slide-3d .desc .item').eq(index).show().siblings().hide();
+                }
+            });
+
+            // 回到顶部效果
+            $(".goTop .img").click(function () {
+                $("html,body").animate({scrollTop:0},500,'swing');
+            });
+
+            // 语言切换按钮功能
+            $(".language").hover(function () {
+                $(".language ul").stop().slideToggle();
+            });
+            $(".navBar .zh").click(function () {
+                chgLang("zh");
+                $(".language>img").attr('src',"images/icon_flag_china@2x.png");
+                $(this).addClass('active').siblings().removeClass('active');
+                $("[data-localize]").localize("text", {
+                    pathPrefix: "lang",
+                    language: "zh"
+                });
+            });
+            $(".navBar .en").click(function () {
+                chgLang("en");
+                $(".language>img").attr('src',"images/icon_flag_eng@2x.png");
+                $(this).addClass('active').siblings().removeClass('active');//给当前li添加样式
+                $("[data-localize]").localize("text", {
+                    pathPrefix: "lang",
+                    language: "en"
+                });
+            });
+        });
+    </script>
+</body>
+</html>

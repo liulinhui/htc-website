@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>HealthTrace</title>
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/slide.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slide.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
     <script src="lib/jquery/jquery-2.2.4.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 
@@ -17,13 +18,13 @@
 </head>
 <body>
     <div class="navBar">
-        <div class="logo"><img src="images/logo_header_home@2x.png"/></div>
+        <div class="logo"><img src="images/logo_header_white@2x.png"/></div>
         <ul class="navigation">
-            <li class="active"><a href="#"  data-localize="nav.menu1">区块链浏览器</a></li>
-            <li><a href="#"  data-localize="nav.menu2">白皮书</a></li>
-            <li><a href="#"  data-localize="nav.menu3">解决方案</a></li>
-            <li><a href="#"  data-localize="nav.menu4">常见问题</a></li>
-            <li><a href="#"  data-localize="nav.menu5">联系我们</a></li>
+            <li class="active"><a href="#"  data-localize="nav.menu1">白皮书</a></li>
+            <li><a href="html/solution.html"  data-localize="nav.menu2">解决方案</a></li>
+            <li><a href="#"  data-localize="nav.menu3">新闻</a></li>
+            <li><a href="html/qa.html"  data-localize="nav.menu4">常见问题</a></li>
+            <li><a href="html/contractUs.html"  data-localize="nav.menu5">联系我们</a></li>
             <li class="language">
                 <img src="images/icon_flag_china@2x.png"/><a href="#"  data-localize="nav.menu6">简体中文</a>
                 <ul>
@@ -48,7 +49,7 @@
                 <div class="item active">
                     <img src="images/banner_1@2x.png" alt="HealthTrace">
                     <div class="carousel-caption">
-                        <div><img src="images/logo_banner_black@2x.png"/></div>
+                        <div><img src="images/logo_big@2x.png"/></div>
                         <p data-localize="banner.banner1.des">HealthTrace是集IOT物联网与区块链技术为一体的产品信息溯源平台</p>
                         <a class="btn-custom" data-localize="banner.banner1.link">查看白皮书</a>
                     </div>
@@ -62,11 +63,11 @@
                     </div>
                 </div>
                 <div class="item alignLeft">
-                    <img src="images/banner_3@2x.png" alt="奶源供应链溯源">
+                    <img src="images/banner_3@2x.png" alt="果蔬汁饮料供应链溯源">
                     <div class="carousel-caption">
-                        <h1 data-localize="banner.banner3.title">奶源供应链溯源</h1>
-                        <p data-localize="banner.banner3.des">从奶牛采购，到奶源采集，保存运输，加工品检全过程进行追踪管理</p>
-                        <a class="btn-custom" data-localize="banner.banner3.link">查看案例</a>
+                        <h1 data-localize="banner.banner3.title">果蔬汁饮料供应链溯源</h1>
+                        <p data-localize="banner.banner3.des">对果蔬汁饮料行业产业链全过程的溯源管理，解决其产业链较长，难以管理的弊端，保证产品的质量安全</p>
+                        <a href="html/fruit.html" class="btn-custom" data-localize="banner.banner3.link">查看案例</a>
                     </div>
                 </div>
                 <div class="item alignLeft">
@@ -74,52 +75,57 @@
                     <div class="carousel-caption">
                         <h1 data-localize="banner.banner4.title">瓶装水供应链溯源</h1>
                         <p data-localize="banner.banner4.des">通过对饮用水全产业链的溯源管理，加强对各环节跟踪监测，消除饮用水健康安全隐患</p>
-                        <a class="btn-custom" data-localize="banner.banner4.link">查看案例</a>
+                        <a href="html/water.html" class="btn-custom" data-localize="banner.banner4.link">查看案例</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="whyUs">
-        <h3 data-localize="whyUs.title">为什么选择我们?</h3>
-        <div class="list">
-            <div class="item">
-                <div><img src="images/icon_choose1@2x.png"/></div>
-                <p data-localize="whyUs.list.des1">专注做食品安全行业<br/>为客户量身定做溯源方案</p>
+
+    <div class="adv_Tar">
+        <div class="advantage">
+            <div class="img">
+                <img src="images/icon_adv@2x.png"/>
             </div>
-            <div class="item">
-                <div><img src="images/icon_choose2@2x.png"/></div>
-                <p data-localize="whyUs.list.des2">创造食品安全产业生态链<br/>提升商业效率</p>
-            </div>
-            <div class="item">
-                <div><img src="images/icon_choose3@2x.png"/></div>
-                <p data-localize="whyUs.list.des3">拥有上市公司做背书</p>
-            </div>
-            <div class="item">
-                <div><img src="images/icon_choose4@2x.png"/></div>
-                <p data-localize="whyUs.list.des4">多家金融机构以及知名人员站台</p>
+            <div class="des">
+                <h2 data-localize="advantage.title">什么是HealthTrace</h2>
+                <p data-localize="advantage.desc">HealthTrace是集IOT物联网与区块链技术为一体的产品信息溯源平台</p>
             </div>
         </div>
-    </div>
-    <div class="advantage">
-        <div class="img">
-            <img src="images/icon_adv@2x.png"/>
-        </div>
-        <div class="des">
-            <h2 data-localize="advantage.title">核心技术优势</h2>
-            <p data-localize="advantage.desc">HealthTrace结合IOT与区块链技术，做到从供应链到终端消费者的全产业溯源覆盖。且颠覆传统溯源技术的局限性，实现相关数据的不可更改，防伪产品的不可复制。智能合约技术的加入，降低交易成本，同时降低交易过程中的信任风险。</p>
-        </div>
-    </div>
-    <div class="target">
-        <div class="des">
-            <h2 data-localize="target.title">HealthTrace的目标</h2>
-            <p data-localize="target.desc">HealthTrace的目标是利用IOT与区块链技术，构建一个可信任的安全食品质量监督生态网</p>
-        </div>
-        <div class="img" style="">
-            <img src="images/icon_goal@2x.png"/>
+        <div class="target">
+            <div class="des">
+                <h2 data-localize="target.title">HealthTrace的目标</h2>
+                <p data-localize="target.desc">HealthTrace的目标是利用IOT与区块链技术，构建一个可信任的安全食品质量监督生态网</p>
+            </div>
+            <div class="img" style="">
+                <img src="images/icon_goal@2x.png"/>
+            </div>
         </div>
     </div>
 
+    <div class="whyUsWrap">
+        <div class="whyUs">
+            <h3 data-localize="whyUs.title">为什么选择HealthTrace</h3>
+            <div class="list">
+                <div class="item">
+                    <div><img src="images/icon_choose1@2x.png"/></div>
+                    <p data-localize="whyUs.list.des1">专注做食品安全行业<br/>为客户量身定做溯源方案</p>
+                </div>
+                <div class="item">
+                    <div><img src="images/icon_choose2@2x.png"/></div>
+                    <p data-localize="whyUs.list.des2">创造食品安全产业生态链<br/>提升商业效率</p>
+                </div>
+                <div class="item">
+                    <div><img src="images/icon_choose3@2x.png"/></div>
+                    <p data-localize="whyUs.list.des3">拥有上市公司做背书</p>
+                </div>
+                <div class="item">
+                    <div><img src="images/icon_choose4@2x.png"/></div>
+                    <p data-localize="whyUs.list.des4">多家金融机构以及知名人员站台</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="memberWrap">
@@ -146,6 +152,20 @@
                     <h4 data-localize="member.list.person3.name">Jessie Tao</h4>
                     <div class="job" data-localize="member.list.person3.job">CFO</div>
                     <p data-localize="member.list.person3.info">注册会计师、税务合伙人。超过10年四大会计事务所从业经验。拥有众多行业外部审计经验。擅长外部报告、财务分析、税务及法务合规等方面的专业服务。</p>
+                </div>
+            </div>
+            <div class="list list2">
+                <div class="item">
+                    <div><img src="images/pic_team4@2x.png"/></div>
+                    <h4 data-localize="member.list.person1.name">Jeremy Everett</h4>
+                    <div class="job" data-localize="member.list.person1.job">HTC区块链工程师</div>
+                    <p data-localize="member.list.person1.info">区块链技术的早期关注者，在区块链技术方面有丰富的经验。 目前任职于Pushpay公司并曾在威廉达蒙控股集团担任业务系统分析师曾在DVDESING公司担任IT董事达9年。</p>
+                </div>
+                <div class="item">
+                    <div><img src="images/pic_team5@2x.png"/></div>
+                    <h4 data-localize="member.list.person2.name">Tom Henderson</h4>
+                    <div class="job" data-localize="member.list.person2.job">HTC核心架构师</div>
+                    <p data-localize="member.list.person2.info">在信息技术和服务领域已经从业超过10年，具有丰富的信息技术基础设施维护和管理经验。曾为业务项目组建核心 IT 基础 设施构建团队并提供技术咨询服务。 目前就职于Pushpay公司担任系统工程师。</p>
                 </div>
             </div>
         </div>
@@ -258,31 +278,63 @@
             </div>
         </div>
     </div>
-    <div class="partner">
-        <div class="title">
-            <h3 data-localize="partner.title">企业支持</h3>
-            <div class="sec-title" data-localize="partner.secTitle">COOPERATION PARTNER</div>
-        </div>
-        <div class="list">
-            <div class="item">
-                <div><img src="images/pic_partner_1@2x.png"/></div>
+    <div class="partnerWrap">
+        <div class="partner">
+            <div class="title">
+                <h3 data-localize="partner.title">企业支持</h3>
+                <div class="sec-title" data-localize="partner.secTitle">COOPERATION PARTNER</div>
             </div>
-            <div class="item">
-                <div><img src="images/pic_partner_2@2x.png"/></div>
-            </div>
-            <div class="item">
-                <div><img src="images/pic_partner_3@2x.png"/></div>
-            </div>
-            <div class="item">
-                <div><img src="images/pic_partner_4@2x.png"/></div>
-            </div>
-            <div class="item">
-                <div><img src="images/pic_partner_5@2x.png"/></div>
+            <div class="list">
+                <div class="item">
+                    <div><img src="images/pic_partner_1@2x.png"/></div>
+                </div>
+                <div class="item">
+                    <div><img src="images/pic_partner_2@2x.png"/></div>
+                </div>
+                <div class="item">
+                    <div><img src="images/pic_partner_3@2x.png"/></div>
+                </div>
+                <div class="item">
+                    <div><img src="images/pic_partner_4@2x.png"/></div>
+                </div>
+                <div class="item">
+                    <div><img src="images/pic_partner_5@2x.png"/></div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="goTop">
-        <div class="img"></div>
+
+    <div class="newsWrap">
+        <div class="news">
+            <div class="title">
+                <h3 data-localize="news.title">新闻</h3>
+                <div class="sec-title" data-localize="news.secTitle">NEWS</div>
+            </div>
+            <div class="list">
+                <div class="item">
+                    <div class="left">
+                        <div class="day">03</div>
+                        <div class="month">January</div>
+                    </div>
+                    <div class="right">
+                        <div class="name">与天美公司达成合作</div>
+                        <div class="summary">与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作</div>
+                        <a class="detail">查看报道</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left">
+                        <div class="day">03</div>
+                        <div class="month">January</div>
+                    </div>
+                    <div class="right">
+                        <div class="name">与天美公司达成合作</div>
+                        <div class="summary">与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作</div>
+                        <a class="detail">查看报道</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="footer">
         <div class="contact">
@@ -293,7 +345,8 @@
             </div>
             <div class="right">
                 <p>
-                    <a class="github"></a>
+                    <a class="reddit"></a>
+                    <a class="telegram"></a>
                     <a class="wechat"></a>
                     <a class="twitter"></a>
                     <a class="facebook"></a>
@@ -306,6 +359,7 @@
             <p>COPYRIGHT (©) 2018 HealthTrace</p>
         </div>
     </div>
+    <div class="goTop"></div>
     <script src="js/slide.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -320,7 +374,7 @@
             });
 
             // 回到顶部效果
-            $(".goTop .img").click(function () {
+            $(".goTop").click(function () {
                 $("html,body").animate({scrollTop:0},500,'swing');
             });
 

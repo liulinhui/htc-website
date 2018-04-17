@@ -1,0 +1,95 @@
+.footer{
+    width: 100%;
+    background-color: #f1f5f8;
+}
+.footer .contact{
+    -webkit-display:flex;
+    display:flex;
+    -webkit-align-items:center;
+    align-items:center;
+    width: 1170px;
+    height: 200px;
+    margin: 0 auto;
+}
+.footer .contact .left{
+    width: 700px;
+    float: left;
+}
+.footer .contact .left p{
+    margin: 20px 0;
+    height:25px;
+    line-height:25px;
+    font-size:18px;
+    font-family:PingFangSC-Regular;
+    color:rgba(197,199,203,1);
+}
+.footer .contact .right{
+    width: 470px;
+    float: right;
+}
+.footer .contact .right p{
+    overflow: hidden;
+}
+.footer .contact .right a{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+}
+.facebook{
+    background: url("../images/icon_facebook@2x.png");
+}
+.facebook:hover{
+    background: url("../images/icon_facebook_hover@2x.png");
+}
+.twitter{
+    background: url("../images/icon_twitter@2x.png");
+}
+.twitter:hover{
+    background: url("../images/icon_twitter_hover@2x.png");
+}
+.wechat{
+    background: url("../images/icon_wechat@2x.png");
+}
+.wechat:hover{
+    background: url("../images/icon_wechat_hover@2x.png");
+}
+.github{
+    background: url("../images/icon_github@2x.png");
+}
+.github:hover{
+    background: url("../images/icon_github_hover@2x.png");
+}
+.telegram{
+    background: url("../images/icon_telegram@2x.png");
+}
+.telegram:hover{
+    background: url("../images/icon_telegram_hover@2x.png");
+}
+.reddit{
+    background: url("../images/icon_reddit@2x.png");
+}
+.reddit:hover{
+    background: url("../images/icon_reddit_hover@2x.png");
+}
+.footer .divide{
+    width:1198px;
+    height:1px;
+    margin: 0 auto;
+    background:rgba(224,224,224,1);
+}
+.footer .copyright{
+    width: 1170px;
+    height:140px;
+    line-height: 140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer .logoBottom{
+    float: left;
+}
+.footer .copyright p{
+    float: right;
+    font-size:14px;
+    color:rgba(197,199,203,1);
+}

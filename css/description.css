@@ -1,6 +1,9 @@
 body{
     font-family:'PingFangSC-Regular','微软雅黑';
 }
+img{
+    vertical-align: middle;
+}
 .navWrap{
     box-shadow: 0px 1px 9px 0px rgba(203,208,228,0.2)
 }

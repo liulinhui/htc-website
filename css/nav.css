@@ -1,0 +1,75 @@
+/*除首页外导航栏样式*/
+.navWrap{
+    box-shadow: 0px 1px 9px 0px rgba(203,208,228,0.2)
+}
+.navWrap .nav{
+    width: 1170px;
+    height: 60px;
+    margin: 0 auto;
+    z-index: 100;
+}
+.navWrap .nav .logo{
+    float: left;
+    line-height: 60px;
+}
+.navWrap .nav .navigation{
+    float: right;
+}
+.navWrap .nav .navigation li{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+.navWrap .nav .navigation li{
+    height: 60px;
+    line-height: 60px;
+    padding:0 16px;
+}
+.navWrap .nav .navigation li a{
+    display: inline-block;
+    color:rgba(187,193,211,1);
+    font-size:14px;
+    text-decoration: none;
+}
+.navWrap .nav .navigation li img{
+    display: inline-block;
+    margin: 0 13px;
+}
+.navWrap .nav .navigation li a:hover{
+    color: #1B76FF;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navWrap .nav .navigation li a:link{
+    text-decoration: none;
+}
+
+.navWrap .nav .navigation li.language{
+    width: 121px;
+    padding:0 5px;
+}
+.navWrap .nav .navigation li.language ul{
+    display: none;
+    overflow: hidden;
+}
+.navWrap .nav .navigation li.language li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding:0px;
+}
+.navWrap .nav .navigation li.language li a{
+    color: white;
+}
+.navWrap .nav .navigation li.language li a:hover{
+    text-decoration: none;
+}
+.navWrap .nav .navigation li.language .zh{
+    margin-top: 10px;
+}
+.navWrap .nav .navigation li.language li{
+    background-color: rgba(255,255,255,0.4);
+}
+.navWrap .nav .navigation li.language .active{
+    background:rgba(27,118,255,1);
+}

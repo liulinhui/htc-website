@@ -1,91 +1,12 @@
 body{
     font-family:'PingFangSC-Regular','微软雅黑';
 }
-.navWrap{
-    box-shadow: 0px 1px 9px 0px rgba(203,208,228,0.2)
-}
-.navWrap .nav{
-    width: 1170px;
-    height: 60px;
-    margin: 0 auto;
-    z-index: 100;
-}
-.navWrap .nav .logo{
-    float: left;
-    line-height: 60px;
-}
-.navWrap .nav .navigation{
-    float: right;
-}
-.navWrap .nav .navigation li{
-    float: left;
-    height: 60px;
-    line-height: 60px;
-}
-.navWrap .nav .navigation li{
-    height: 60px;
-    line-height: 60px;
-    padding:0 16px;
-}
-.navWrap .nav .navigation li a{
-    display: inline-block;
-    color:rgba(187,193,211,1);
-    font-size:14px;
-    text-decoration: none;
-}
-.navWrap .nav .navigation li img{
-    display: inline-block;
-    margin: 0 13px;
-}
-.navWrap .nav .navigation li a:hover{
-    color: #1B76FF;
-    text-decoration: none;
-    background-color: transparent;
-}
-.navWrap .nav .navigation li a:link{
-    text-decoration: none;
-}
-
-.navWrap .nav .navigation li.language{
-    width: 121px;
-    padding:0 5px;
-}
-.navWrap .nav .navigation li.language ul{
-    display: none;
-    overflow: hidden;
-}
-.navWrap .nav .navigation li.language li{
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    padding:0px;
-}
-.navWrap .nav .navigation li.language li a{
-    color: white;
-}
-.navWrap .nav .navigation li.language li a:hover{
-    text-decoration: none;
-}
-.navWrap .nav .navigation li.language .zh{
-    margin-top: 10px;
-}
-.navWrap .nav .navigation li.language li{
-    background-color: rgba(255,255,255,0.4);
-}
-.navWrap .nav .navigation li.language .active{
-    background:rgba(27,118,255,1);
-}
-
-
-
-
-
-.description{
+.solutionBlock{
     width: 1170px;
     margin: 0 auto;
     padding-top: 96px;
 }
-.description .title{
+.title{
     margin-bottom: 70px;
     text-align: center;
 }
@@ -125,18 +46,18 @@ body{
     margin: 10px 0 30px;
 }
 
-.description .info{
+.solutionBlock .info{
     padding: 0 100px;
     overflow: hidden;
 }
-.description .info p{
+.solutionBlock .info p{
     margin-bottom: 50px;
     font-size:18px;
     font-family:PingFangSC-Regular;
     color:rgba(140,140,140,1);
     line-height:30px;
 }
-.description .info img{
+.solutionBlock .info img{
     display: block;
     margin: 0 auto 35px;
 }
@@ -153,21 +74,20 @@ body{
     text-align: center;
 }
 
-
-
-
-
-
 .case-box .case{
-    margin-right: -35px;
+    margin-left: -18px;
+    margin-right: -17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .case-box .item{
     position: relative;
-    float: left;
     width: 300px;
     height: 300px;
-    margin-right: 35px;
+    margin-left: 18px;
+    margin-right: 17px;
     text-align: center;
 }
 .case-box .item1{

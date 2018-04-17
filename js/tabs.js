@@ -5,7 +5,7 @@ $(document).ready(function () {
             renderer: 'svg',
             loop: false,
             autoplay: false,
-            path: 'bodymovin/icon'+i+'.json'
+            path: '../bodymovin/icon'+i+'.json'
 
         };
         var anim = bodymovin.loadAnimation(animData);

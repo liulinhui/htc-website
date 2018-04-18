@@ -1,5 +1,6 @@
 /*除首页外导航栏样式*/
 body{
+    font-family:'PingFangSC-Regular','微软雅黑';
     padding-top: 60px;
 }
 .navWrap{
@@ -25,6 +26,7 @@ body{
 }
 .navWrap .nav .navigation{
     float: right;
+    margin: 0;
 }
 .navWrap .nav .navigation li{
     float: left;
@@ -45,6 +47,7 @@ body{
 .navWrap .nav .navigation li img{
     display: inline-block;
     margin: 0 13px;
+    vertical-align: middle;
 }
 .navWrap .nav .navigation li a:hover{
     color: #73799c;

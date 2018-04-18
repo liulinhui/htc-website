@@ -28,7 +28,7 @@
     float: right;
 }
 .footer .contact .right p{
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .footer .contact .right a{
     float: right;
@@ -37,8 +37,11 @@
     margin-left: 25px;
     position: relative;
 }
-.footer .contact .right .wechat:after{
+.footer .contact .right .wechat:hover:after{
     display: block;
+}
+.footer .contact .right .wechat:after{
+    display: none;
     position: absolute;
     top:-158px;
     left: 50%;

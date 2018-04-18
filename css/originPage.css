@@ -106,7 +106,7 @@ body{
 
 
 .originBlock .case{
-    padding: 64px 0 233px;
+    padding: 64px 0 200px;
 }
 .originBlock .case .title{
     height:45px;
@@ -122,6 +122,7 @@ body{
     color:rgba(76,81,85,1);
     line-height:21px;
     margin-top: 20px;
+    font-weight: 600;
 }
 .originBlock .case p{
     font-size:16px;

@@ -520,6 +520,11 @@ body{
     border: 1px solid #C5C7CB;
     text-align: center;
 }
+.news .item .right .detail:hover{
+    color:rgba(255,255,255,1);
+    background:rgba(160,166,200,1);
+    text-decoration: none;
+}
 /*回到顶部区域*/
 .goTop{
     position: fixed;
@@ -527,6 +532,8 @@ body{
     right: 100px;
     width: 100px;
     height: 100px;
-    background:url("../images/icon_backtotop@2x.png") no-repeat 100% 100%;
+    background:#fff url("../images/icon_backtotop@2x.png") no-repeat 100% 100%;
     cursor: pointer;
+    z-index: 9999;
+    display: none;
 }

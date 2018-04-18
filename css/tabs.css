@@ -27,3 +27,6 @@
     line-height:28px;
     text-align: center;
 }
+.active{
+    color:rgba(76,81,85,1);
+}

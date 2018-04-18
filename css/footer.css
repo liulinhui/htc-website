@@ -28,7 +28,7 @@
     float: right;
 }
 .footer .contact .right p{
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 .footer .contact .right a{
     float: right;

@@ -141,3 +141,96 @@ body{
     visibility: hidden;
     clear: both;
 }
+
+/*时间轴样式*/
+.timeAxis{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+.timeAxis .divide{
+    width:2px;
+    margin-top: 40px;
+    background:linear-gradient(180deg,rgba(151,216,255,1),rgba(50,145,255,1));
+}
+.timeAxis .date{
+    height:74px;
+    font-size:30px;
+    font-family:Ubuntu;
+    color:rgba(76,81,85,1);
+    line-height:74px;
+    margin-bottom: 120px;
+    position: relative;
+}
+.timeAxis .event{
+    height:74px;
+    font-size:24px;
+    font-family:PingFangSC-Regular;
+    color:rgba(115,121,156,1);
+    line-height:74px;
+    margin-bottom: 120px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeAxis .event span{
+    font-size:24px;
+    font-family:PingFangSC-Regular;
+    color:rgba(115,121,156,1);
+    line-height:33px;
+    margin: 0 30px 0 20px;
+}
+.timeAxis .line{
+    width:80px;
+    height:1px;
+    background:rgba(216,216,216,1);
+}
+.timeAxis .left{
+    text-align: right;
+}
+
+.timeAxis .left .date{
+    padding-right: 60px;
+}
+.timeAxis .left .date:after{
+    position: absolute;
+    top:27px;
+    right: -11px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:linear-gradient(90deg,rgba(97,196,255,1),rgba(50,145,255,1));
+}
+
+.timeAxis .right .date{
+    padding-left: 60px;
+}
+.timeAxis .right .date:after{
+    position: absolute;
+    top:27px;
+    left: -11px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:linear-gradient(90deg,rgba(97,196,255,1),rgba(50,145,255,1));
+}
+
+
+
+
+
+
+
+
+
+
+

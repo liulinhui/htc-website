@@ -109,6 +109,22 @@
     "title": "COOPERATION PARTNER",
     "secTitle": "企业支持"
   },
+  "news":{
+    "title": "NEWS",
+    "secTitle": "新闻",
+    "list":{
+      "item1":{
+        "name":"Cooperation with the company of Tian Mei",
+        "summary":"Cooperation with the company of Tian MeiCooperation with the company of Tian MeiCooperation with the company of Tian Mei",
+        "link":"View"
+      },
+      "item2":{
+        "name":"Cooperation with the company of Tian Mei",
+        "summary":"Cooperation with the company of Tian MeiCooperation with the company of Tian MeiCooperation with the company of Tian Mei",
+        "link":"View"
+      }
+    }
+  },
   "contact":{
     "phone": "Tel：+61 412 927 796",
     "email": "Email：webmaster@jaz-int",

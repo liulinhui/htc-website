@@ -317,9 +317,9 @@
                         <div class="month">January</div>
                     </div>
                     <div class="right">
-                        <div class="name">与天美公司达成合作</div>
-                        <div class="summary">与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作</div>
-                        <a class="detail">查看报道</a>
+                        <div class="name"  data-localize="news.list.item1.name">与天美公司达成合作</div>
+                        <div class="summary"   data-localize="news.list.item1.summary">与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作</div>
+                        <a class="detail"  data-localize="news.list.item1.link">查看报道</a>
                     </div>
                 </div>
                 <div class="item">
@@ -328,9 +328,9 @@
                         <div class="month">January</div>
                     </div>
                     <div class="right">
-                        <div class="name">与天美公司达成合作</div>
-                        <div class="summary">与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作</div>
-                        <a class="detail">查看报道</a>
+                        <div class="name" data-localize="news.list.item2.name">与天美公司达成合作</div>
+                        <div class="summary" data-localize="news.list.item2.summary">与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作</div>
+                        <a class="detail"  data-localize="news.list.item2.link">查看报道</a>
                     </div>
                 </div>
             </div>
@@ -374,6 +374,15 @@
             });
 
             // 回到顶部效果
+            $(document).scroll(function () {
+                var sTop=$(document).scrollTop();
+                var pHeight=$(document).height();
+                if(sTop>pHeight/2){
+                    $(".goTop").show();
+                }else {
+                    $(".goTop").hide();
+                }
+            })
             $(".goTop").click(function () {
                 $("html,body").animate({scrollTop:0},500,'swing');
             });

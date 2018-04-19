@@ -224,6 +224,12 @@ body{
     background:linear-gradient(90deg,rgba(97,196,255,1),rgba(50,145,255,1));
 }
 
+.timeAxis .left .event{
+    justify-content: flex-end;
+}
+.timeAxis .right .event{
+    justify-content: flex-start;
+}
 
 
 

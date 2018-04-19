@@ -32,7 +32,7 @@
                     <ul>
                         <li class="zh"><img src="images/icon_flag_china@2x.png"/><a>简体中文</a></li>
                         <li class="en"><img src="images/icon_flag_eng@2x.png"/><a>English</a></li>
-                        <li class="jp"><img src="images/icon_flag_eng@2x.png"/><a>English</a></li>
+                        <li class="jp"><img src="images/icon_flag_Jap@2x.png"/><a>*&*（</a></li>
                     </ul>
                 </li>
             </ul>
@@ -395,7 +395,7 @@
             $(".language").hover(function () {
                 $(".language ul").stop().slideToggle();
             });
-            $(".navBar .zh").click(function () {
+            $(".nav .zh").click(function () {
                 chgLang("zh");
                 $(".language>img").attr('src',"images/icon_flag_china@2x.png");
                 $(this).addClass('active').siblings().removeClass('active');
@@ -404,7 +404,7 @@
                     language: "zh"
                 });
             });
-            $(".navBar .en").click(function () {
+            $(".nav .en").click(function () {
                 chgLang("en");
                 $(".language>img").attr('src',"images/icon_flag_eng@2x.png");
                 $(this).addClass('active').siblings().removeClass('active');//给当前li添加样式

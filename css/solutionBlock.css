@@ -193,6 +193,7 @@ body{
     background:rgba(216,216,216,1);
 }
 .timeAxis .left{
+    width: 50%;
     text-align: right;
 }
 
@@ -210,6 +211,9 @@ body{
     background:linear-gradient(90deg,rgba(97,196,255,1),rgba(50,145,255,1));
 }
 
+.timeAxis .right{
+    width: 50%;
+}
 .timeAxis .right .date{
     padding-left: 60px;
 }

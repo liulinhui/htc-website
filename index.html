@@ -14,8 +14,9 @@
     <script src="lib/jquery/jquery-2.2.4.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 
-    <script src="lib/jquery.localize.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/language_cookie.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/jquery.localize.js" type="text/javascript"></script>
+    <script src="js/language_cookie.js" type="text/javascript"></script>
+    <script src="js/switchLan.js" type="text/javascript"></script>
 </head>
 <body>
     <div class="navWrap">
@@ -28,7 +29,7 @@
                 <li><a href="html/qa.html"  data-localize="nav.menu4">常见问题</a></li>
                 <li><a href="html/contractUs.html"  data-localize="nav.menu5">联系我们</a></li>
                 <li class="language">
-                    <img src="images/icon_flag_china@2x.png"/><a href="#"  data-localize="nav.menu6">简体中文</a>
+                    <img data-localize="nav.icon"/><a href="#"  data-localize="nav.menu6">简体中文</a>
                     <ul>
                         <li class="zh"><img src="images/icon_flag_china@2x.png"/><a>简体中文</a></li>
                         <li class="en"><img src="images/icon_flag_eng@2x.png"/><a>English</a></li>
@@ -161,13 +162,13 @@
             <div class="list list2">
                 <div class="item">
                     <div><img src="images/pic_team4@2x.png"/></div>
-                    <h4 data-localize="member.list.person1.name">Jeremy Everett</h4>
+                    <h4 data-localize="member.list.person4.name">Jeremy Everett</h4>
                     <div class="job" data-localize="member.list.person1.job">HTC区块链工程师</div>
                     <p data-localize="member.list.person1.info">区块链技术的早期关注者，在区块链技术方面有丰富的经验。 目前任职于Pushpay公司并曾在威廉达蒙控股集团担任业务系统分析师曾在DVDESING公司担任IT董事达9年。</p>
                 </div>
                 <div class="item">
                     <div><img src="images/pic_team5@2x.png"/></div>
-                    <h4 data-localize="member.list.person2.name">Tom Henderson</h4>
+                    <h4 data-localize="member.list.person5.name">Tom Henderson</h4>
                     <div class="job" data-localize="member.list.person2.job">HTC核心架构师</div>
                     <p data-localize="member.list.person2.info">在信息技术和服务领域已经从业超过10年，具有丰富的信息技术基础设施维护和管理经验。曾为业务项目组建核心 IT 基础 设施构建团队并提供技术咨询服务。 目前就职于Pushpay公司担任系统工程师。</p>
                 </div>
@@ -386,32 +387,9 @@
                 }else {
                     $(".goTop").hide();
                 }
-            })
+            });
             $(".goTop").click(function () {
                 $("html,body").animate({scrollTop:0},500,'swing');
-            });
-
-            // 语言切换按钮功能
-            $(".language").hover(function () {
-                $(".language ul").stop().slideToggle();
-            });
-            $(".nav .zh").click(function () {
-                chgLang("zh");
-                $(".language>img").attr('src',"images/icon_flag_china@2x.png");
-                $(this).addClass('active').siblings().removeClass('active');
-                $("[data-localize]").localize("text", {
-                    pathPrefix: "lang",
-                    language: "zh"
-                });
-            });
-            $(".nav .en").click(function () {
-                chgLang("en");
-                $(".language>img").attr('src',"images/icon_flag_eng@2x.png");
-                $(this).addClass('active').siblings().removeClass('active');//给当前li添加样式
-                $("[data-localize]").localize("text", {
-                    pathPrefix: "lang",
-                    language: "en"
-                });
             });
         });
     </script>

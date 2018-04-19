@@ -5,7 +5,9 @@
     "menu3": "新闻",
     "menu4": "常见问题",
     "menu5": "联系我们",
-    "menu6": "简体中文"
+    "menu6": "简体中文",
+    "icon":"images/icon_flag_china@2x.png",
+    "icon_other":"../images/icon_flag_china@2x.png"
   },
   "banner":{
     "banner1":{
@@ -64,6 +66,16 @@
         "name": "Jessie Tao",
         "job": "CFO",
         "info": "注册会计师、税务合伙人。超过10年四大会计事务所从业经验。拥有众多行业外部审计经验。擅长外部报告、财务分析、税务及法务合规等方面的专业服务。"
+      },
+      "person4":{
+        "name": "Jeremy Everett",
+        "job": "HTC区块链工程师",
+        "info": "区块链技术的早期关注者，在区块链技术方面有丰富的经验。 目前任职于Pushpay公司并曾在威廉达蒙控股集团担任业务系统分析师曾在DVDESING公司担任IT董事达9年。"
+      },
+      "person5":{
+        "name": "Tom Henderson",
+        "job": "HTC核心架构师",
+        "info": "在信息技术和服务领域已经从业超过10年，具有丰富的信息技术基础设施维护和管理经验。曾为业务项目组建核心 IT 基础 设施构建团队并提供技术咨询服务。 目前就职于Pushpay公司担任系统工程师。"
       }
     }
   },
@@ -129,5 +141,97 @@
     "phone": "电话：+61 412 927 796",
     "email": "邮箱：webmaster@jaz-int",
     "adress": "地址：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia"
+  },
+  "contactUs":{
+    "title":"联系我们",
+    "secTitle":"Contact Us",
+    "phone":{
+      "label":"电话：",
+      "content":"+61 412 927 796"
+    },
+    "email":{
+      "label":"邮箱：",
+      "content":"webmaster@jaz-intl.com"
+    },
+    "adress": {
+      "label":"地址：",
+      "content":"9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia"
+    }
+  },
+  "tabs":{
+    "item1":"项目描述",
+    "item2":"行业解决方案",
+    "item3":"技术路线",
+    "item4":"小视频",
+    "item5":"分配计划",
+    "item6":"发展前景"
+  },
+  "description":{
+    "title":"项目描述",
+    "secTitle":"DESCRIPTION",
+    "des":"食品安全问题是人们日常饮食中无法忽视的一个问题。HealthTrace是基于区块链的健康产品追踪数据中心，以追踪新一代健康产品的生产流通环节为核心目标，利用区块链技术和智能合约技术提高交易的透明度，降低欺诈风险。 当越来越多的合作者加入到HealthTrace之后，整个HealthTrace的生态链将在保证终端产品安全的基础上，为所有入驻的合作伙伴带来更多商机，并通过区块链与智能合约保证交易的安全性，效率，以及透明度。"
+  },
+  "solution":{
+    "title":"行业解决方案",
+    "secTitle":"SOLUTION",
+    "des1":"HealthTrace主要解决食品安全领域存在的信任问题，目前食品行业存在严重的信息不对称问题，部分商家以次充好、虚假宣传、以假乱真等行为也造成消费者对食品安全隐患的担忧，同时增加生产厂家的宣传成本、信任成本和防伪成本等。",
+    "des2":"HealthTrace将食品生产链中的业务数据、物流数据及码数据（产品数据）数字化与HTC进行关联写入区块链，通过智能合约将不同数据对象建立关系型连接，同时配合相应的权限进行组合建模，来映射现实商业世界的各个不同商业活动。 HealthTrace通过给商品打上唯⼀身份认证码，在食品健康行业中，将商品整个生产、检测、运输、分销、零售等环节的信息完整地展现给广大消费者，提升用户的购物体验；在商品溯源平台中，引入区块链技术，利用其天然不可篡改的特性，解决传统溯源平台中心化信息存储易篡改的漏洞，真正打造公开、透明、安全、不可篡改的溯源平台。",
+    "des3":"HealthTrace通过IOT适配层、区块链抽象层、应用服务层三层系统架构来实现平台技术的应用。",
+    "img1":"../images/pic_solution1@2x.png",
+    "img2":"../images/pic_solution2@2x.png"
+  },
+  "case":{
+    "title":"案例",
+    "secTitle":"CASES",
+    "fruit":{
+      "title":"果蔬汁供应链溯源",
+      "btn":"查看项目"
+    },
+    "water":{
+      "title":"瓶装水供应链溯源",
+      "btn":"查看项目"
+    },
+    "media":{
+      "title":"多媒体商贸溯源",
+      "btn":"查看项目"
+    }
+  },
+  "roadmap":{
+    "title":"技术路线",
+    "secTitle":"ROADMAP",
+    "item1":"与博君农业达成战略合作",
+    "item2":"与天美公司达成战略合作",
+    "item3":"技术框架搭建测试",
+    "item4":"白皮书完成",
+    "item5":"开始筹备项目推广",
+    "item6":"向公众展示白皮书",
+    "item7":"测试网上线",
+    "item8":"主网正式上线"
+  },
+  "prospect":{
+    "title":"发展前景",
+    "secTitle":"PROSPECT",
+    "des1":"HealthTrace未来不仅可用于健康食品的溯源追踪，其适用范围涵盖整个制造业。适用行业内一旦有部分公司采用HealthTrace溯源系统后，其他尚未采用该技术的公司为了保证其市场竞争力也将进一步采用该技术，提升自己的产品质量控制能力。 HealthTrace下一步计划进军网络安全领域，其中澳洲上市公司WONHE Multimedia Commerce Ltd已有初步合作意向。"
+  },
+  "qa":{
+    "title":"常见问题",
+    "secTitle":"Q&A",
+    "item1":{
+      "q":"什么是HealthTrace？",
+      "a":"HealthTrace是基于区块链的健康产品追踪数据中心，以追踪新一代健康产品的生产流通环节为核心目标，利用区块链技术和智能合约技术提高交易的透明度，降低欺诈风险。"
+    },
+    "item2":{
+      "q":"HTC代币功能包括哪些？",
+      "a":"HTC(HealthTrace Coin)主要功能为实现区块链中的信息交互。同时HTC也是HealthTrace生态链中的流通币，商家可基于智能合约，来使用HTC完成交易。"
+    },
+    "item3":{
+      "q":"我们的核心技术优势是什么？",
+      "a":"HealthTrace结合IOT与区块链技术，做到从供应链到终端消费者的全产业溯源覆盖。且颠覆传统溯源技术的局限性，实现相关数据的不可更改，防伪产品的不可复制。智能合约技术的加入，降低交易成本，同时降低交易过程中的信任风险。"
+    },
+    "item4":{
+      "q":"HTC未来的愿景是什么？",
+      "a":"HealthTrace未来不仅可用于整个食品行业的溯源追踪，更可以涵盖整个制造业，为消费者提供真实的产品溯源信息，消除信任成本，让越来越多的企业从中获益。"
+    }
+
   }
 }

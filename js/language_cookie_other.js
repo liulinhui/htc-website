@@ -48,25 +48,25 @@ $(function() {
     if (getCookie(name)) {
         if (getCookie(name) == "zh") {
             $("[data-localize]").localize("text", {
-                pathPrefix: "lang",
+                pathPrefix: "../lang",
                 language: "zh"
             });
             console.log("come in cookie zh");
         }else if (getCookie(name) == "en") {
             $("[data-localize]").localize("text", {
-                pathPrefix: "lang",
+                pathPrefix: "../lang",
                 language: "en"
             });
             console.log("come in cookie en");
         }else if (getCookie(name) == "jp") {
             $("[data-localize]").localize("text", {
-                pathPrefix: "lang",
+                pathPrefix: "../lang",
                 language: "jp"
             });
             console.log("come in cookie jp");
         }else {
             $("[data-localize]").localize("text", {
-                pathPrefix: "lang",
+                pathPrefix: "../lang",
                 language: "en"
             });
             console.log("come in cookie en");
@@ -74,7 +74,7 @@ $(function() {
     }else{
         // 当cookie里没有保存语言时，选择默认语言英语
         $("[data-localize]").localize("text", {
-            pathPrefix: "lang",
+            pathPrefix: "../lang",
             language: "en"
         });
         $(".language>img").attr('src',"images/icon_flag_eng@2x.png");

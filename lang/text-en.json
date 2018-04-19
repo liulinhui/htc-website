@@ -5,7 +5,9 @@
     "menu3": "News",
     "menu4": "Common Problem",
     "menu5": "Contact Us",
-    "menu6": "English"
+    "menu6": "English",
+    "icon":"images/icon_flag_eng@2x.png",
+    "icon_other":"../images/icon_flag_eng@2x.png"
   },
   "banner":{
     "banner1":{
@@ -61,6 +63,16 @@
         "info": "Australian finance and technology members jointly lead their block chain sub committee. Focus on block chain and financial services. It has over 18 years of information technology and over 10 years experience in financial services technology."
       },
       "person3":{
+        "name": "Jessie Tao",
+        "job": "CFO",
+        "info": "A certified public accountant or a tax partner. More than 10 years of four major accounting firms experience. Have a large number of industry external audit experience. Good at external reporting, financial analysis, tax and legal compliance and other professional services."
+      },
+      "person4":{
+        "name": "Brad Fornby",
+        "job": "CTO",
+        "info": "Australian finance and technology members jointly lead their block chain sub committee. Focus on block chain and financial services. It has over 18 years of information technology and over 10 years experience in financial services technology."
+      },
+      "person5":{
         "name": "Jessie Tao",
         "job": "CFO",
         "info": "A certified public accountant or a tax partner. More than 10 years of four major accounting firms experience. Have a large number of industry external audit experience. Good at external reporting, financial analysis, tax and legal compliance and other professional services."
@@ -129,5 +141,97 @@
     "phone": "Tel：+61 412 927 796",
     "email": "Email：webmaster@jaz-int",
     "adress": "Adress：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia"
+  },
+  "contactUs":{
+    "title":"Contact Us",
+    "secTitle":"",
+    "phone":{
+      "label":"Tel：",
+      "content":"+61 412 927 796"
+    },
+    "email":{
+      "label":"Email：",
+      "content":"webmaster@jaz-intl.com"
+    },
+    "adress": {
+      "label":"Adress：",
+      "content":"9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia"
+    }
+  },
+  "tabs":{
+    "item1":"description",
+    "item2":"solution",
+    "item3":"roadmap",
+    "item4":"video",
+    "item5":"plane",
+    "item6":"prospects"
+  },
+  "description":{
+    "title":"DESCRIPTION",
+    "secTitle":"",
+    "des":"Food safety is a problem that can not be ignored in people's daily diet. HealthTrace is a block chain based health product tracking data center to track the production and circulation of a new generation of health products as the core goal, using block chain technology and intelligent contract technology to improve the transparency of the transaction and reduce the risk of fraud. As more and more collaborators join HealthTrace, the entire HealthTrace ecosystem will bring more business opportunities to all the partners on the basis of ensuring the safety of the end products, and ensure the security, efficiency, and transparency of the transaction through block chains and intelligent contracts."
+  },
+  "solution":{
+    "title":"SOLUTION",
+    "secTitle":"",
+    "des1":"HealthTrace mainly solves the problem of trust in the field of food safety. At present, there are serious information asymmetry problems in the food industry. Some businesses are in good order, false propaganda and false information, which cause consumers to worry about the hidden dangers of food safety. At the same time, the manufacturers' publicity costs, trust costs and anti-counterfeiting are also increased. Cost and so on.",
+    "des2":"HealthTrace writes the business data in the food production chain, the logistics data and the code data (product data) digitalization and the HTC into the block chain, establishes the relational connection with the different data objects through the intelligent contract, and combines the corresponding privileges to model the different business activities of the real business world. Move. In the food health industry, HealthTrace displays the information of the whole production, detection, transportation, distribution, retail and other links in the food health industry to the consumers and improve the user's shopping experience in the food health industry. The characteristics of transformation can solve the loopholes of information storage easily focused on the traditional traceability platform, and truly create an open, transparent, secure and non tampered traceability platform.",
+    "des3":"HealthTrace realizes the application of platform technology through three layers of IOT adaptation layer, block chain abstraction layer and application service layer.",
+    "img1":"../images/pic_solution1_eng1@2x.png",
+    "img2":"../images/pic_solution2_eng2@2x.png"
+  },
+  "case":{
+    "title":"CASES",
+    "secTitle":"",
+    "fruit":{
+      "title":"fruit and vegetable juice",
+      "btn":"View"
+    },
+    "water":{
+      "title":" bottled water ",
+      "btn":"View"
+    },
+    "media":{
+      "title":"Multi-Media",
+      "btn":"View"
+    }
+  },
+  "roadmap":{
+    "title":"ROADMAP",
+    "secTitle":"",
+    "item1":"Strategic cooperation with Bo Jun agriculture",
+    "item2":"Strategic cooperation with Tian Mei",
+    "item3":"Construction test of technical framework",
+    "item4":"White paper finished",
+    "item5":"Start the project promotion",
+    "item6":"Show the white paper to the public",
+    "item7":"Test online line",
+    "item8":"The main officially launched"
+  },
+  "prospect":{
+    "title":"PROSPECT",
+    "secTitle":"",
+    "des1":"The future of HealthTrace can be used not only for traceability of healthy foods, but also for the entire manufacturing industry. Once the HealthTrace traceability system is adopted by some companies in the industry, other companies that have not yet adopted the technology will further adopt the technology in order to ensure their market competitiveness, and improve their quality control ability. HealthTrace plans to enter the field of network security next year, among which WONHE Multimedia Commerce Ltd, an Australian listed company, already has initial cooperation intentions."
+  },
+  "qa":{
+    "title":"Common problem",
+    "secTitle":"Q&A",
+    "item1":{
+      "q":"What is HealthTrace?",
+      "a":"HealthTrace is a block chain based health product tracking data center to track the production and circulation of a new generation of health products as the core goal, using block chain technology and intelligent contract technology to improve the transparency of the transaction and reduce the risk of fraud."
+    },
+    "item2":{
+      "q":"What does the HTC token include?",
+      "a":"The main function of HTC (HealthTrace Coin) is to realize information interaction in block chain. At the same time, HTC is also a currency in the HealthTrace ecosystem chain. Businesses can use HTC to complete transactions based on Intelligent contracts."
+    },
+    "item3":{
+      "q":"What are our core technical advantages?",
+      "a":"HealthTrace combines IOT and block chain technology to achieve the whole industry traceability coverage from supply chain to terminal consumers. It also subverts the limitations of traditional Traceability Technology, realizes the relevant data can not be changed, and prevents counterfeit products from being duplicated. The addition of intelligent contract technology reduces transaction costs and reduces trust risk in the transaction process."
+    },
+    "item4":{
+      "q":"What is the future vision of HTC?",
+      "a":"HealthTrace will not only be used to trace the traceability of the whole food industry, but also cover the whole manufacturing industry, provide consumers with real product traceability information, eliminate the cost of trust, and make more and more enterprises benefit from it."
+    }
+
   }
 }

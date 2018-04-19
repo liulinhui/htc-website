@@ -114,6 +114,12 @@
 <script>
     $(document).ready(function () {
         rendAnimate(6);
+        $(".case-box .item").mouseover(function () {
+            $(this).children(".hover").stop().fadeIn(300);
+        });
+        $(".case-box .item").mouseout(function () {
+            $(this).children(".hover").stop().fadeOut(300);
+        });
     })
 </script>
 </body>

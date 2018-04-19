@@ -128,9 +128,9 @@ body{
     background:rgba(27,118,255,1);
     text-align: center;
 }
-.case-box .item:hover .hover{
-    display: block;
-}
+/*.case-box .item:hover .hover{*/
+    /*display: block;*/
+/*}*/
 
 
 .clearfix:after {

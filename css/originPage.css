@@ -10,7 +10,7 @@
     border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 .originBlock .desc .title{
-    height:45px;
+    /*height:45px;*/
     line-height:45px;
     font-size:32px;
     font-family:PingFangSC-Medium;

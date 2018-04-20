@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行业解决方案</title>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/nav.css"/>
+    <link rel="stylesheet" href="../css/tabs.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="stylesheet" href="../css/solutionBlock.css">
+    <link rel="stylesheet" href="../lib/video/video-js.min.css"/>
+    <script src="../bodymovin/lottie.min.js"></script>
+    <script src="../lib/jquery/jquery-2.2.4.min.js"></script>
+    <script src="../js/tabs.js"></script>
+
+    <script src="../lib/jquery.localize.js" type="text/javascript"></script>
+    <script src="../js/language_cookie_other.js" type="text/javascript"></script>
+    <script src="../js/switchLan.js" type="text/javascript"></script>
+    <script src="../lib/video/video.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="navWrap">
+    <div class="nav">
+        <div class="logo"><a href="../index.html"><img src="../images/logo_header_other@2x.png"/></a></div>
+        <ul class="navigation">
+            <li class="active"><a href="#" data-localize="nav.menu1">白皮书</a></li>
+            <li><a href="solution.html" data-localize="nav.menu2">解决方案</a></li>
+            <li><a href="" data-localize="nav.menu3">新闻</a></li>
+            <li><a href="qa.html" data-localize="nav.menu4">常见问题</a></li>
+            <li><a href="contractUs.html" data-localize="nav.menu5">联系我们</a></li>
+            <li class="language">
+                <img src="../images/icon_flag_china@2x.png" data-localize="nav.icon_other"/><a href="#"
+                                                                                               data-localize="nav.menu6">简体中文</a>
+                <ul>
+                    <li class="zh"><img src="../images/icon_flag_china@2x.png"/><a>简体中文</a></li>
+                    <li class="en"><img src="../images/icon_flag_eng@2x.png"/><a>English</a></li>
+                    <li class="jp"><img src="../images/icon_flag_Jap@2x.png"/><a>日本語</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="tabs">
+    <div class="item">
+        <a href="description.html" class="img" id="bodymovin1"></a>
+        <span class="text" data-localize="tabs.item1">项目描述</span>
+    </div>
+
+    <div class="item">
+        <a href="solution.html" class="img" id="bodymovin2"></a>
+        <span class="text" data-localize="tabs.item2">行业解决方案</span>
+    </div>
+    <div class="item">
+        <a href="roadmap.html" class="img" id="bodymovin3"></a>
+        <span class="text" data-localize="tabs.item3">技术路线</span>
+    </div>
+    <div class="item">
+        <a href="#" class="img" id="bodymovin4"></a>
+        <span class="text active" data-localize="tabs.item4">小视频</span>
+    </div>
+    <div class="item">
+        <a class="img" id="bodymovin5"></a>
+        <span class="text" data-localize="tabs.item5">分配计划</span>
+    </div>
+    <div class="item">
+        <a href="prospects.html" class="img" id="bodymovin6"></a>
+        <span class="text" data-localize="tabs.item6">发展前景</span>
+    </div>
+</div>
+
+<div id="video">
+    <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"  poster="http://vjs.zencdn.net/v/oceans.png">
+    <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="footer">
+    <div class="contact">
+        <div class="left">
+            <p data-localize="contact.phone">电话：+61 412 927 796</p>
+            <p data-localize="contact.email">邮箱：webmaster@jaz-int</p>
+            <p data-localize="contact.adress">地址：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia</p>
+        </div>
+        <div class="right">
+            <p>
+                <a class="reddit"></a>
+                <a class="telegram"></a>
+                <a class="wechat"></a>
+                <a class="twitter"></a>
+                <a class="facebook"></a>
+            </p>
+        </div>
+    </div>
+    <div class="divide"></div>
+    <div class="copyright">
+        <div class="logoBottom"><img src="../images/logo_bottom@2x.png"></div>
+        <p>COPYRIGHT (©) 2018 HealthTrace</p>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        rendAnimate(4);
+        $(".case-box .item").mouseover(function () {
+            $(this).children(".hover").stop().fadeIn(300);
+        });
+        $(".case-box .item").mouseout(function () {
+            $(this).children(".hover").stop().fadeOut(300);
+        });
+    })
+</script>
+</body>
+</html>

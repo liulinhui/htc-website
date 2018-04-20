@@ -16,34 +16,6 @@ function getCookie(name){  //取cookies函数
     return null
 }
 $(function() {
-    // var uulanguage = (navigator.language || navigator.browserLanguage).toLowerCase();
-    // console.log("come in readly" + uulanguage);
-    //
-    // if (uulanguage.indexOf("en") > -1) {
-    //     $("[data-localize]").localize("text", {   //**主要的代码** jquery.localize.js 底层实现切换逻辑
-    //         pathPrefix: "lang",
-    //         language: "en"
-    //     });
-    //     $(".language>img").attr('src',"images/icon_flag_eng@2x.png");
-    //     $(".navWrap .en").addClass('active').siblings().removeClass('active');
-    //     console.log("come in en");
-    // } else if (uulanguage.indexOf("zh") > -1) {
-    //     $("[data-localize]").localize("text", {
-    //         pathPrefix: "lang",
-    //         language: "zh"
-    //     });
-    //     $(".language>img").attr('src',"images/icon_flag_china@2x.png");
-    //     $(".navWrap .zh").addClass('active').siblings().removeClass('active');
-    //     console.log("come in zh-cn");
-    // } else {
-    //     $("[data-localize]").localize("text", {
-    //         pathPrefix: "lang",
-    //         language: "en"
-    //     });
-    //     $(".language>img").attr('src',"images/icon_flag_eng@2x.png");
-    //     $(".navWrap .en").addClass('active').siblings().removeClass('active');
-    //     console.log("come in moren en");
-    // };
     //根据cookie选择语言
     if (getCookie(name)) {
         if (getCookie(name) == "zh") {

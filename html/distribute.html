@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../css/tabs.css"/>
     <link rel="stylesheet" href="../css/footer.css"/>
     <link rel="stylesheet" href="../css/solutionBlock.css">
-    <link rel="stylesheet" href="../lib/video/video-js.min.css"/>
     <script src="../bodymovin/lottie.min.js"></script>
     <script src="../lib/jquery/jquery-2.2.4.min.js"></script>
     <script src="../js/tabs.js"></script>
@@ -17,14 +16,15 @@
     <script src="../lib/jquery.localize.js" type="text/javascript"></script>
     <script src="../js/language_cookie_other.js" type="text/javascript"></script>
     <script src="../js/switchLan.js" type="text/javascript"></script>
-    <script src="../lib/video/video.min.js" type="text/javascript"></script>
+    <script src="../js/echarts.simple.min.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="navWrap">
     <div class="nav">
         <div class="logo"><a href="../index.html"><img src="../images/logo_header_other@2x.png"/></a></div>
         <ul class="navigation">
-            <li class="active"><a target="_blank" href="../whitePaper/htc-whitePaper-zh.pdf" data-localize="nav.menu1">白皮书</a></li>
+            <li class="active"><a target="_blank" href="../whitePaper/htc-whitePaper-zh.pdf" data-localize="nav.menu1">白皮书</a>
+            </li>
             <li><a href="solution.html" data-localize="nav.menu2">解决方案</a></li>
             <li><a href="" data-localize="nav.menu3">新闻</a></li>
             <li><a href="qa.html" data-localize="nav.menu4">常见问题</a></li>
@@ -57,12 +57,12 @@
         <span class="text" data-localize="tabs.item3">技术路线</span>
     </div>
     <div class="item">
-        <a href="#" class="img" id="bodymovin4"></a>
-        <span class="text active" data-localize="tabs.item4">小视频</span>
+        <a href="video.html" class="img" id="bodymovin4"></a>
+        <span class="text" data-localize="tabs.item4">小视频</span>
     </div>
     <div class="item">
-        <a href="distribute.html" class="img" id="bodymovin5"></a>
-        <span class="text" data-localize="tabs.item5">分配计划</span>
+        <a class="img" href="#" id="bodymovin5"></a>
+        <span class="text active" data-localize="tabs.item5">分配计划</span>
     </div>
     <div class="item">
         <a href="prospects.html" class="img" id="bodymovin6"></a>
@@ -71,12 +71,58 @@
 </div>
 
 <div id="solutionBlock">
-    <video style="margin-left: 25%;margin-top: 3%;margin-bottom:2%;width: 50%;height: 700px" id="example_video_1"
-           class="video-js vjs-default-skin"
-           controls preload="none" width="1200" height="500" poster="../images/video.png">
-        <source src="../video/video.mp4" type="video/mp4">
-    </video>
+    <div style="margin-left: 25%;width: 50%;height: 700px" id="distributeChart">
+    </div>
 </div>
+
+
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('distributeChart'));
+    var data = [
+        {
+            name: "流通发行",
+            value: 45
+        },
+        {
+            name: "业内人士天使轮",
+            value: 15
+        },
+        {
+            name: "营销推广",
+            value: 20
+        },
+        {
+            name: "创始团队早起持有",
+            value: 20
+        }
+    ];
+    option = {
+        title : {
+            text: '同名数量统计',
+            subtext: '纯属虚构',
+            x:'center'
+        },
+        series: [
+            {
+                name: '姓名',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '50%'],
+                data: data,
+                itemStyle: {
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>
 
 <div class="footer">
     <div class="contact">
@@ -103,7 +149,7 @@
 </div>
 <script>
     $(document).ready(function () {
-        rendAnimate(4);
+        rendAnimate(5);
         $(".case-box .item").mouseover(function () {
             $(this).children(".hover").stop().fadeIn(300);
         });

@@ -5,9 +5,9 @@
     "menu3": "ニュース",
     "menu4": "一般的な問題",
     "menu5": "私たちに連絡する",
-    "menu6": "中国語",
-    "icon":"images/icon_flag_china@2x.png",
-    "icon_other":"../images/icon_flag_china@2x.png"
+    "menu6": "日本語",
+    "icon":"images/icon_flag_Jap@2x.png",
+    "icon_other":"../images/icon_flag_Jap@2x.png"
   },
   "banner":{
     "banner1":{
@@ -177,8 +177,8 @@
     "des1":"HealthTrace主要解决食品安全领域存在的信任问题，目前食品行业存在严重的信息不对称问题，部分商家以次充好、虚假宣传、以假乱真等行为也造成消费者对食品安全隐患的担忧，同时增加生产厂家的宣传成本、信任成本和防伪成本等。",
     "des2":"HealthTrace将食品生产链中的业务数据、物流数据及码数据（产品数据）数字化与HTC进行关联写入区块链，通过智能合约将不同数据对象建立关系型连接，同时配合相应的权限进行组合建模，来映射现实商业世界的各个不同商业活动。 HealthTrace通过给商品打上唯⼀身份认证码，在食品健康行业中，将商品整个生产、检测、运输、分销、零售等环节的信息完整地展现给广大消费者，提升用户的购物体验；在商品溯源平台中，引入区块链技术，利用其天然不可篡改的特性，解决传统溯源平台中心化信息存储易篡改的漏洞，真正打造公开、透明、安全、不可篡改的溯源平台。",
     "des3":"HealthTrace通过IOT适配层、区块链抽象层、应用服务层三层系统架构来实现平台技术的应用。",
-    "img1":"../images/pic_solution1@2x.png",
-    "img2":"../images/pic_solution2@2x.png"
+    "img1":"../images/pic_solution1_eng1@2x.png",
+    "img2":"../images/pic_solution2_eng2@2x.png"
   },
   "case":{
     "title":"案例",
@@ -302,7 +302,7 @@
     "summary":"HealthTrace未来不仅可用于健康食品的溯源追踪，其适用范围涵盖整个制造业。HealthTrace下一步计划进军网络安全领域，其中澳洲上市公司WONHE Multimedia Commerce Ltd已有初步合作意向。",
     "case":{
       "title":"案例",
-      "secTitle1":"WONHE Multimedia Commerce Ltd（网合多媒体商贸有限公司，简称"网合"，ASX代码：WMC）",
+      "secTitle1":"WONHE Multimedia Commerce Ltd（网合多媒体商贸有限公司，简称'网合'，ASX代码：WMC）",
       "info":"网合作为高端商务和个人信息技术产品的提供商，于2015年12月16日成功登陆澳大利亚证券交易所。网合涉及业务领域包括电视互联网、商业WIFI广告运营、互联网广告运营、视频点播服务、物联网技术以及三网融合综合业务等。网合战略目标为建立以公司矩阵式产品链为基础，以高速互联网内容云平台为价值核心的，结合软件系统和硬件设备的网络生态系统，为消费者提供高质量的内容和服务，产品价值不断提升，继而带动整个生态圈的繁荣和发展。网合预计将HealthTrace运用于公司现有多媒体家庭式播放设备，对家庭用户的交互式数据搜集，互动平台的针对性推荐、节目投放，以及用户点播付费的功能实现等方面。",
       "secTitle2":"HealthTrace可对网合产品的追踪溯源如下："
     },

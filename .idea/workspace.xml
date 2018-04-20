@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5f0364-ee4f-4988-a25b-7ea08314872f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/originPage.css" afterPath="$PROJECT_DIR$/css/originPage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contractUs.html" afterPath="$PROJECT_DIR$/html/contractUs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/description.html" afterPath="$PROJECT_DIR$/html/description.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/fruit.html" afterPath="$PROJECT_DIR$/html/fruit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/mediaTrade.html" afterPath="$PROJECT_DIR$/html/mediaTrade.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/prospects.html" afterPath="$PROJECT_DIR$/html/prospects.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/qa.html" afterPath="$PROJECT_DIR$/html/qa.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/roadmap.html" afterPath="$PROJECT_DIR$/html/roadmap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/solution.html" afterPath="$PROJECT_DIR$/html/solution.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/water.html" afterPath="$PROJECT_DIR$/html/water.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/text-en.json" afterPath="$PROJECT_DIR$/lang/text-en.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/text-zh.json" afterPath="$PROJECT_DIR$/lang/text-zh.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/language_cookie.js" afterPath="$PROJECT_DIR$/js/language_cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/language_cookie_other.js" afterPath="$PROJECT_DIR$/js/language_cookie_other.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jquery.localize.js" afterPath="$PROJECT_DIR$/lib/jquery.localize.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,41 +32,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="roadmap.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/roadmap.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="164" column="58" lean-forward="false" selection-start-line="164" selection-start-column="58" selection-end-line="164" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fruit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/fruit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="75" column="64" lean-forward="false" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="water.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/water.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="50" column="69" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mediaTrade.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/mediaTrade.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="55" column="53" lean-forward="false" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+            <state relative-caret-position="238">
+              <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -69,8 +45,8 @@
       <file leaf-file-name="solution.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/solution.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="103" column="72" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="72" />
+            <state relative-caret-position="283">
+              <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#p#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -78,21 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text-zh.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lang/text-zh.json">
+      <file leaf-file-name="water.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/water.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="299" column="12" lean-forward="false" selection-start-line="299" selection-start-column="3" selection-end-line="299" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text-en.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lang/text-en.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="318" column="575" lean-forward="false" selection-start-line="318" selection-start-column="575" selection-end-line="318" selection-end-column="575" />
+            <state relative-caret-position="323">
+              <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -111,12 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>advantage</find>
-      <find>whyUS</find>
-      <find>par</find>
-      <find>goTop</find>
-      <find>member</find>
-      <find>description</find>
       <find>64px</find>
       <find>that</find>
       <find>anim</find>
@@ -128,7 +88,6 @@
       <find>pathPrefix</find>
       <find>jsonCall</find>
       <find>defaultCallback</find>
-      <find>valueForKey</find>
       <find>loadLanguage</find>
       <find>navBar</find>
       <find>data-localize</find>
@@ -141,6 +100,13 @@
       <find>case</find>
       <find>prospect.</find>
       <find>water</find>
+      <find>images</find>
+      <find>00</find>
+      <find>road</find>
+      <find>_</find>
+      <find>valueForKey</find>
+      <find>en</find>
+      <find>language</find>
     </findStrings>
     <replaceStrings>
       <replace>logo_header_other@2x</replace>
@@ -174,26 +140,26 @@
         <option value="$PROJECT_DIR$/css/contractUs.css" />
         <option value="$PROJECT_DIR$/css/qa.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/language_cookie.js" />
-        <option value="$PROJECT_DIR$/lib/jquery.localize.js" />
         <option value="$PROJECT_DIR$/js/switchLan.js" />
         <option value="$PROJECT_DIR$/css/nav.css" />
-        <option value="$PROJECT_DIR$/js/language_cookie_other.js" />
         <option value="$PROJECT_DIR$/lang/text-jp.json" />
+        <option value="$PROJECT_DIR$/css/solutionBlock.css" />
+        <option value="$PROJECT_DIR$/css/originPage.css" />
+        <option value="$PROJECT_DIR$/lang/text-en.json" />
+        <option value="$PROJECT_DIR$/js/language_cookie_other.js" />
+        <option value="$PROJECT_DIR$/js/language_cookie.js" />
+        <option value="$PROJECT_DIR$/lang/text-zh.json" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/contractUs.html" />
         <option value="$PROJECT_DIR$/html/description.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/html/solution.html" />
-        <option value="$PROJECT_DIR$/html/roadmap.html" />
-        <option value="$PROJECT_DIR$/css/solutionBlock.css" />
+        <option value="$PROJECT_DIR$/html/fruit.html" />
+        <option value="$PROJECT_DIR$/html/mediaTrade.html" />
         <option value="$PROJECT_DIR$/html/prospects.html" />
         <option value="$PROJECT_DIR$/html/qa.html" />
+        <option value="$PROJECT_DIR$/html/roadmap.html" />
+        <option value="$PROJECT_DIR$/html/solution.html" />
         <option value="$PROJECT_DIR$/html/water.html" />
-        <option value="$PROJECT_DIR$/html/fruit.html" />
-        <option value="$PROJECT_DIR$/css/originPage.css" />
-        <option value="$PROJECT_DIR$/lang/text-zh.json" />
-        <option value="$PROJECT_DIR$/lang/text-en.json" />
-        <option value="$PROJECT_DIR$/html/mediaTrade.html" />
+        <option value="$PROJECT_DIR$/lib/jquery.localize.js" />
       </list>
     </option>
   </component>
@@ -262,7 +228,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,12 +320,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523888084010</updated>
-      <workItem from="1523888088935" duration="87569000" />
+      <workItem from="1523888088935" duration="93051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87569000" />
+    <option name="totallyTimeSpent" value="93051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -508,14 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jquery.localize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="119" column="7" lean-forward="true" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/nav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -532,68 +490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/language_cookie_other.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/language_cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/contractUs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/solutionBlock.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="214" column="14" lean-forward="false" selection-start-line="214" selection-start-column="14" selection-end-line="214" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/switchLan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/prospects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="87" column="42" lean-forward="false" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/description.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="42" column="60" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="164" column="58" lean-forward="false" selection-start-line="164" selection-start-column="58" selection-end-line="164" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -606,68 +506,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/fruit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="75" column="64" lean-forward="false" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/roadmap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/qa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/icon_flag_china@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lang/text-zh.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="299" column="12" lean-forward="false" selection-start-line="299" selection-start-column="3" selection-end-line="299" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="50" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/solution.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="72" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="72" />
-          <folding>
-            <element signature="n#style#0;n#p#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lang/text-en.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="318" column="575" lean-forward="false" selection-start-line="318" selection-start-column="575" selection-end-line="318" selection-end-column="575" />
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/water.html">
+    <entry file="file://$PROJECT_DIR$/js/switchLan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="50" column="69" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="69" />
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/language_cookie_other.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="54" column="40" lean-forward="false" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/language_cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="60" lean-forward="false" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="63" lean-forward="true" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/contractUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fruit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/mediaTrade.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="55" column="53" lean-forward="false" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+        <state relative-caret-position="374">
+          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/prospects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="60" lean-forward="false" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/qa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/roadmap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/solution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#p#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery.localize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="154" column="41" lean-forward="false" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/water.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
           <folding />
         </state>
       </provider>

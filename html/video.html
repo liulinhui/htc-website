@@ -19,6 +19,42 @@
     <script src="../js/switchLan.js" type="text/javascript"></script>
     <script src="../lib/video/video.min.js" type="text/javascript"></script>
 </head>
+<script>
+    $(document).ready(function () {
+        rendAnimate(4);
+        $(".case-box .item").mouseover(function () {
+            $(this).children(".hover").stop().fadeIn(300);
+        });
+        $(".case-box .item").mouseout(function () {
+            $(this).children(".hover").stop().fadeOut(300);
+        });
+        var video = $('video source');
+        if (getCookie(name) === "zh") {
+            video.attr('src', '../video/Chinese.mp4');
+        }
+        if (getCookie(name) === "en") {
+            video.attr('src', '../video/English.mp4');
+        }
+        if (getCookie(name) === "jp") {
+            video.attr('src', '../video/Japanese.mp4');
+        }
+        if (getCookie(name) === "kr") {
+            video.attr('src', '../video/Korean.mp4');
+        }
+        if (getCookie(name) === "ge") {
+            video.attr('src', '../video/German.mp4');
+        }
+        if (getCookie(name) === "ru") {
+            video.attr('src', '../video/Russian.mp4');
+        }
+        if (getCookie(name) === "fr") {
+            video.attr('src', '../video/French.mp4');
+        }
+        if (getCookie(name) === "sp") {
+            video.attr('src', '../video/Spanish.mp4');
+        }
+    })
+</script>
 <body>
 <div class="navWrap">
     <div class="nav">
@@ -102,41 +138,5 @@
         <p>COPYRIGHT (©) 2018 HealthTrace</p>
     </div>
 </div>
-<script>
-    $(document).ready(function () {
-        rendAnimate(4);
-        $(".case-box .item").mouseover(function () {
-            $(this).children(".hover").stop().fadeIn(300);
-        });
-        $(".case-box .item").mouseout(function () {
-            $(this).children(".hover").stop().fadeOut(300);
-        });
-        var video = $('video source');
-        if (getCookie(name) === "zh") {
-            video.attr('src', 'Chinese.mp4');
-        }
-        if (getCookie(name) === "en") {
-            video.attr('src', 'English.mp4');
-        }
-        if (getCookie(name) === "jp") {
-            video.attr('src', 'Japanese.mp4');
-        }
-        if (getCookie(name) === "kr") {
-            video.attr('src', 'Korean.mp4');
-        }
-        if (getCookie(name) === "ge") {
-            video.attr('src', 'German.mp4');
-        }
-        if (getCookie(name) === "ru") {
-            video.attr('src', 'Russian.mp4');
-        }
-        if (getCookie(name) === "fr") {
-            video.attr('src', 'French.mp4');
-        }
-        if (getCookie(name) === "sp") {
-            video.attr('src', 'Spanish.mp4');
-        }
-    })
-</script>
 </body>
 </html>

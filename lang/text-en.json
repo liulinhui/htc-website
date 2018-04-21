@@ -55,27 +55,27 @@
       "person1":{
         "name": "John Wu",
         "job": "CEO",
-        "info": "Australian senior certified public accountant, Royal senior Chartered Management Accountant and senior licensed accountant. He has been a major financial position in a number of multinational companies. Now he is a full-time consultant of the Australian Institute of certified public accountants."
+        "info": "He is a senior member of CPA Australia and a fellow member of the Chartered Institute of Management Accountants of the United Kingdom. He is also a Chartered Global Management Accountant (CGMA). He is in the position of a professional consultant of CPA Australia.He has held various financial management positions with multinational companies in Hong Kong,Australia, and New Zealand such as Toyota, Nestlé,British America Tobacco and Deloitte."
       },
       "person2":{
         "name": "Brad Fornby",
         "job": "CTO",
-        "info": "Australian finance and technology members jointly lead their block chain sub committee. Focus on block chain and financial services. It has over 18 years of information technology and over 10 years experience in financial services technology."
+        "info": "Brad has over 18-year working experience in the field of information technology, and over 10-year working experience in the field of financial service technology.Brad focuses on the field of blockchain/distributed ledger technology and financia services. Brad is a member of Australian financial technology and co-leads its blockchain subcommittee,which is responsible for the development of emerging block chain technology policies and standards."
       },
       "person3":{
         "name": "Jessie Tao",
         "job": "CFO",
-        "info": "A certified public accountant or a tax partner. More than 10 years of four major accounting firms experience. Have a large number of industry external audit experience. Good at external reporting, financial analysis, tax and legal compliance and other professional services."
+        "info": "Jessie is a Certified Public Accountant and tax partner. Jessie has over 10-year working experience in the top 4 accounting firms.Jessie has extensive experience in the field of external audit within a wide range of industries and accounting services, and with expertise in external reporting, financial analysis, and tax and regulatory compliance. Beyond this, Jessie provides clients with a range of consulting services including business valuations, due diligence, human resource consulting,systems review and establishment,benchmark reporting as well as regular compliance issues."
       },
       "person4":{
-        "name": "Brad Fornby",
-        "job": "CTO",
-        "info": "Australian finance and technology members jointly lead their block chain sub committee. Focus on block chain and financial services. It has over 18 years of information technology and over 10 years experience in financial services technology."
+        "name": "Jeremy Everett",
+        "job": "HTC Blockchain Engineer",
+        "info": "Jeremy is an early follower of blockchain technology and has extensive experience in blockchain technology with a background in software, information systems, and management.Jeremy graduated from the University of Auckland in New Zealand with major in Accounting and Computer Science. He currently works for Pushpay and has served as a Business Systems Analyst for William Demant Holding Group. He has served as an IT Director at DVDESING for 9 years."
       },
       "person5":{
-        "name": "Jessie Tao",
-        "job": "CFO",
-        "info": "A certified public accountant or a tax partner. More than 10 years of four major accounting firms experience. Have a large number of industry external audit experience. Good at external reporting, financial analysis, tax and legal compliance and other professional services."
+        "name": "Tom Henderson",
+        "job": "HTC Core Architect",
+        "info": "Tom has worked in information technology and services for over 10 years and has extensive experience in the maintenance and management of information technology infrastructure.Tom has built a team of core IT infrastructures for business projects and provides technical consulting services. He is responsible for maintaining and supporting data centers, hosts, and other infrastructure.Tom currently serves as a Systems Engineer at Pushpay Company."
       }
     }
   },

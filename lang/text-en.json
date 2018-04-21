@@ -3,7 +3,7 @@
     "menu1": "White Paper",
     "menu2": "Solution",
     "menu3": "News",
-    "menu4": "Common Problem",
+    "menu4": "Question",
     "menu5": "Contact Us",
     "menu6": "English",
     "icon":"images/icon_flag_eng@2x.png",
@@ -12,7 +12,7 @@
   "banner":{
     "banner1":{
       "title":"",
-      "des":"HealthTrace is a product information traceability platform integrating IOT Internet of things and block chain technology.",
+      "des":"HealthTrace is a product information traceability platform through integrating the IOT and Blockchain Technology",
       "link":"white paper"
     },
     "banner2":{
@@ -22,31 +22,31 @@
     },
     "banner3":{
       "title":"Tracing the source of milk supply chain",
-      "des":"Tracking and management from cow purchase to milk collection, preservation, transportation and processing.",
+      "des":"Through the traceability management of the whole process of the industry chain of the fruit and vegetable beverage industry, HealthTrace solves the drawbacks of its long industrial chain and difficult management, at the same time ensures product quality and safety.",
       "link":"View the case"
     },
     "banner4":{
       "title":"Traceability of bottled water supply chain",
-      "des":"Through tracing the source management of drinking water industry chain, we should track and monitor every link to eliminate the hidden danger of drinking water health and safety.",
+      "des":"Through the traceability management of the entire industrial chain of drinking water, HealthTrace strengthens the tracking and monitoring of all links, especially water sources, and eliminates potential health and safety hazards of drinking water.",
       "link":"View the case"
     }
   },
   "whyUs":{
-    "title":"Why choose us?",
+    "title":"Why choose HealthTrace?",
     "list":{
-      "des1":"Focus on the food safety industry,tailor the traceability scheme for customers.",
-      "des2":"Create food safety industry, ecological chain,and enhance business efficiency.",
-      "des3":"To have a endorsement of a listed company",
-      "des4":"A number of financial institutions and well-known platform"
+      "des1":"Focus on the food safety industry and customize the traceability plan for customers",
+      "des2":"Create a food safety industry ecological chain, improve business efficiency",
+      "des3":"listed companies endorsement",
+      "des4":"Supported by a number of financial institutions and well-known personnel"
     }
   },
   "advantage":{
     "title":"Core technical advantages",
-    "desc":"HealthTrace combines IOT and block chain technology to achieve the whole industry traceability coverage from supply chain to terminal consumers. It also subverts the limitations of traditional Traceability Technology and realizes the relevant data can not be changed, and the counterfeit products can not be duplicated. The entry of intelligent contract technology reduces transaction cost and reduces trust risk in transaction process."
+    "desc":"HealthTrace is a product information traceability platform through integrating the IOT and Blockchain Technology."
   },
   "target":{
-    "title":"The goal of HealthTrace",
-    "desc":"The goal of HealthTrace is to build a trustworthy and safe food quality supervision ecosystem using IOT and block chaining technology."
+    "title":"What is the goal of HealthTrace",
+    "desc":"The goal of HealthTrace is to use IOT and Blockchain Technology to build up a reliable safety food quality supervision Ecological Network."
   },
   "member": {
     "title": "TEAM MEMBER",
@@ -80,40 +80,40 @@
     }
   },
   "support":{
-    "title": "PERSONAL SUPPORT",
-    "secTitle": "个人支持",
+    "title": "Individual supporters",
+    "secTitle": "Rankings in no particular order, and continuous update",
     "list":{
       "item1":{
         "name":"Hon.Andrew Stoner",
-        "info":"He served as governor of New South Wales, parliamentarians, directors and advisors of many companies."
+        "info":"Once served as governor of New South Wales,member  of  parliament,director and counsel of many companies."
       },
       "item2":{
         "name":"Albert Xie",
-        "info":"Investment banking background, Australia north side fund president and deputy director of the Chinese Association of Australia long investment"
+        "info":"Investment banking background. Once served as president of an unnamed Australia Fund and vice president of Australia Chinese Investment Association."
       },
       "item3":{
         "name":"phillip-grundy",
-        "info":"Good at IPO listing and financing business, over 10 years experience in legal work."
+        "info":"Be good at IPO listing financing business with over 10-year legal work experience"
       },
       "item4":{
         "name":"Justyn Stedwell",
-        "info":"It has been working for more than 8 years as a secretary of a board of directors of a listed company, and is also a director of several listed companies in the Australian Stock Exchange."
+        "info":"8-year experience as Secretary of the Board in the listed company, as well as the Company Director in several ASX listed companies."
       },
       "item5":{
         "name":"Sam Novak",
-        "info":"Master of finance, senior investment banker, 24 years of financial experience, has been held in a number of companies as senior partners, chief executives and other important positions."
+        "info":"Master of Finance, senior investment banker, 24-year working experience in finance, once holding important positions such as Senior Partner and CEO,etc.in many companies."
       },
       "item6":{
         "name":"Tim Overton",
-        "info":"Australian real estate expert, engaged in China and Australia Trade and investment for more than 20 years, has served as Australia's Dali aluminum general manager, Australian G6 Group Chairman, Australia Belle real estate company partner"
+        "info":"Australian Real Estate Expert, engaged in Sino-Australian trade and investment for more than 20 years, once served as General Manager of Australia Dali Aluminum Industry,Chairman of Australian-Chinese G6 Group,Partner of Australia Belle Real Estate Company."
       },
       "item7":{
         "name":"Jaylin Mao",
         "info":"Master of marketing and human resource business, has RG146 financial certificate, Secretary General of Australia China Business Association, has held many important positions in many companies."
       },
       "item8":{
-        "name":"Caroline Hong",
-        "info":"A member of the board of directors of Australia, and the first Asian woman to award the members of the board of directors of Australia."
+        "name":"Dr. Caroline Hong",
+        "info":"A member of Australian Institute of Company Directors, the first Asian woman awarded to be a member of Australian Institute of Company Directors Company."
       }
     }
   },
@@ -169,14 +169,15 @@
   "description":{
     "title":"DESCRIPTION",
     "secTitle":"",
-    "des":"Food safety is a problem that can not be ignored in people's daily diet. HealthTrace is a block chain based health product tracking data center to track the production and circulation of a new generation of health products as the core goal, using block chain technology and intelligent contract technology to improve the transparency of the transaction and reduce the risk of fraud. As more and more collaborators join HealthTrace, the entire HealthTrace ecosystem will bring more business opportunities to all the partners on the basis of ensuring the safety of the end products, and ensure the security, efficiency, and transparency of the transaction through block chains and intelligent contracts."
+    "des":"Food safety is a problem that people cannot ignore in their daily diet.HealthTrace is a health product tracking data center based on block-chain. Its core target is tracking the production and circulation links of new generation health products, and use Block-chain technology and Smart Contract technology to improve transaction transparency and reduce fraud risk. As more and more participants join in HealthTrace, the entire ecological chain of HealthTrace based on ensuring the safety of terminal product, nd through the Blockchain and Smart Contract which can ensure the safety, efficiency and transparency of transactions, which will bring more business opportunities for all participants. "
   },
   "solution":{
     "title":"SOLUTION",
     "secTitle":"",
-    "des1":"HealthTrace mainly solves the problem of trust in the field of food safety. At present, there are serious information asymmetry problems in the food industry. Some businesses are in good order, false propaganda and false information, which cause consumers to worry about the hidden dangers of food safety. At the same time, the manufacturers' publicity costs, trust costs and anti-counterfeiting are also increased. Cost and so on.",
-    "des2":"HealthTrace writes the business data in the food production chain, the logistics data and the code data (product data) digitalization and the HTC into the block chain, establishes the relational connection with the different data objects through the intelligent contract, and combines the corresponding privileges to model the different business activities of the real business world. Move. In the food health industry, HealthTrace displays the information of the whole production, detection, transportation, distribution, retail and other links in the food health industry to the consumers and improve the user's shopping experience in the food health industry. The characteristics of transformation can solve the loopholes of information storage easily focused on the traditional traceability platform, and truly create an open, transparent, secure and non tampered traceability platform.",
-    "des3":"HealthTrace realizes the application of platform technology through three layers of IOT adaptation layer, block chain abstraction layer and application service layer.",
+    "des1":"HealthTrace mainly resolves trust issues in the field of food safety,.Currently, there are serious asymmetric information problems in the food industry, and some behaviors such as shoddy, false propaganda mixing the false with the genuine which resulted in consumers' concern about the hidden dangers of food safety and at the same time increase the manufacturer's publicity cost, trust cost and anti-counterfeit cost.",
+    "des2":"HealthTrace shall digitized and associate the business data, logistics data and code data (product data) in the food production chain with HTC and write into the Blockchain. Through using Smart Contract, establish relational connections among different data objects, and meanwhile, coordinate with the corresponding permissions to make Portfolio modeling, so as to reflect different business activities in the real business world.",
+    "des3":"By given the product an one and only identification, HealthTrace can disclose the entire information of the product, such as production, inspection, transportation,distribution, retail and other link to all consumers, enhance the users' shopping experience. In the commodity traceability platform, HealthTrace introduces Blockchain technology, and uses its natural tamper-resistant characteristics to solve the tampered vulnerability of traditional traceability platform information storage, and truly creates an open, transparent, secure and tamper-resistant traceability platform.",
+    "des4":"HealthTrace realizes the application of the platform technology through three layers system architecture of the IOT adaptation layer, the Blockchain abstraction layer and the application service layer.",
     "img1":"../images/pic_solution1_eng1@2x.png",
     "img2":"../images/pic_solution2_eng2@2x.png"
   },
@@ -184,7 +185,7 @@
     "title":"CASES",
     "secTitle":"",
     "fruit":{
-      "title":"fruit and vegetable juice",
+      "title":"Fruit and Vegetable",
       "btn":"View"
     },
     "water":{
@@ -199,124 +200,125 @@
   "roadmap":{
     "title":"ROADMAP",
     "secTitle":"",
-    "item1":"Strategic cooperation with Bo Jun agriculture",
-    "item2":"Strategic cooperation with Tian Mei",
+    "item1":"Achieve strategic cooperation with Bojun Agriculture",
+    "item2":"Achieve strategic cooperation with Tianmei",
     "item3":"Construction test of technical framework",
-    "item4":"White paper finished",
-    "item5":"Start the project promotion",
+    "item4":"White paper completed",
+    "item5":"Start preparations for project promotion",
     "item6":"Show the white paper to the public",
-    "item7":"Test online line",
-    "item8":"The main officially launched"
+    "item7":"The test network launched",
+    "item8":"The main network launched officially"
   },
   "prospect":{
-    "title":"PROSPECT",
+    "title":"Prospects for Development",
     "secTitle":"",
-    "des1":"The future of HealthTrace can be used not only for traceability of healthy foods, but also for the entire manufacturing industry. Once the HealthTrace traceability system is adopted by some companies in the industry, other companies that have not yet adopted the technology will further adopt the technology in order to ensure their market competitiveness, and improve their quality control ability. HealthTrace plans to enter the field of network security next year, among which WONHE Multimedia Commerce Ltd, an Australian listed company, already has initial cooperation intentions."
+    "des1":"In the future, HealthTrace can be used not only for tracing the traceability of health food, but also can cover the entire manufacturing industry. Once there exist some enterprises adopting HealthTrace source tracing system, other companies which have not used it will also use the technology further to ensure their market competitiveness and enhance their capability of product quality control.HealthTrace intends to enter internet security field next, and has reached an initial intent of cooperation with WONHE Multimedia Commerce Ltd, an Australian listed company."
   },
   "qa":{
-    "title":"Common problem",
+    "title":"Frequently Asked Question",
     "secTitle":"Q&A",
     "item1":{
       "q":"What is HealthTrace?",
-      "a":"HealthTrace is a block chain based health product tracking data center to track the production and circulation of a new generation of health products as the core goal, using block chain technology and intelligent contract technology to improve the transparency of the transaction and reduce the risk of fraud."
+      "a":"HealthTrace is a blockchain-based health product tracking data center, with tracking production and circulation of the new generation health products as the core goal, and using the blockchain and smart contract technologies to increase the transparency of transactions and reduce the risk of fraud."
     },
     "item2":{
-      "q":"What does the HTC token include?",
-      "a":"The main function of HTC (HealthTrace Coin) is to realize information interaction in block chain. At the same time, HTC is also a currency in the HealthTrace ecosystem chain. Businesses can use HTC to complete transactions based on Intelligent contracts."
+      "q":"What functions as Token do HTC include?",
+      "a":"The main function of HTC (HealthTrace Coin) is to achieve the information exchange in the blockchain. At the same time, HTC is also a circulating currency in the HealthTrace eco-chain. Dealers can use HTC to complete transactions based on smart contracts."
     },
     "item3":{
-      "q":"What are our core technical advantages?",
-      "a":"HealthTrace combines IOT and block chain technology to achieve the whole industry traceability coverage from supply chain to terminal consumers. It also subverts the limitations of traditional Traceability Technology, realizes the relevant data can not be changed, and prevents counterfeit products from being duplicated. The addition of intelligent contract technology reduces transaction costs and reduces trust risk in the transaction process."
+      "q":"What is our core technical advantage?",
+      "a":"HealthTrace combines IOT with blockchain technology to enable full-industry traceability coverage from the supply chain to end-consumers. It subverts the limitations of traditional traceability technology to achieve the irreversible character of the relevant data and non-repeatability of anti-counterfeiting products. With the addition of smart contract technologies, transaction costs are reduced, meanwhile, the risk of trust in the transaction is reduced as well."
     },
     "item4":{
-      "q":"What is the future vision of HTC?",
-      "a":"HealthTrace will not only be used to trace the traceability of the whole food industry, but also cover the whole manufacturing industry, provide consumers with real product traceability information, eliminate the cost of trust, and make more and more enterprises benefit from it."
+      "q":"What is HTC’s future vision?",
+      "a":"HealthTrace can be used not only for tracing the source of the whole food industry, but also can cover the entire manufacturing industry, to provide consumers with true product traceability information, eliminate the cost of trust, and let more and more enterprises benefit from it in the future."
     }
   },
   "waterPage":{
-    "title":"Traceability of bottled water supply chain",
-    "summary":"The quality and safety of bottled water industry is becoming more and more serious, and some of the safety problems in bottled water market are usually caused by water pollution, bottled containers unqualified, manufacturers without self inspection, counterfeit and shoddy products and quality standards are not uniform. How to achieve integrity, safety and transparency of information is an urgent problem for bottled water industry.",
+    "title":"Bottled Water Industry",
+    "summary":"The quality safety issues in the bottled water industry is a growing threat. The safety issues appearing in the bottled water market are generally stemmed from water source pollution, unqualified bottled containers, manufacturers without self-test, fake and shoddy products and non-uniform quality standards and so on. It is the problems demanding prompt solution of how to be honest, safe and transparent in the bottled water industry.",
     "case":{
       "title":"case",
-      "secTitle1":"Tianmei Beverage Group Corporation Limited",
-      "info":"Tian Mei Beverage Group Co., Ltd., with the mission of 'building the first-class people's livelihood enterprises and serving the health of thousands of families,' is the mission of elaborately developing the drinking water products and striving to provide health, safety and healthy high quality products for the general people. Tian Mei has a high level R & D team led by the water quality expert and professor level engineer of the Chinese Academy of Sciences. It has explored and developed the high quality water source, developed an automatic production line with independent intellectual property rights, reached the world advanced level, established the water source environment protection and the aquatic product quality monitoring system, which has been developed and produced a number of series of drinking water products, all products are located at the 25 degree north latitude golden climate ecological belt of the original forest nature reserve water source directly filling.",
-      "secTitle2":"HealthTrace traced the source of water from the source to filling, packaging, inspection, sorting, transportation and terminal sales."
+      "secTitle1":"Tianmei  Beverage  Group  Corporation  Limited(Tianmei Beverage Group Corporation Limited, referred to as “Tianmei”, ASX code：TB8）",
+      "info":"Tianmei Beverage Group Corporation Limited takes “build a first-class livelihood enterprise and serve the health of thousands of families” as its mission, carefully conducts the research and development of drinking water products, and strives to provide wholesome, safe and healthy high-quality products for the masses of the people. A high-level R&D team of Tianmei which led by the water quality experts of Chinese Academy of Sciences and professor-level engineers searches and develops high-quality water sources in many areas. The team has developed a world’s advanced automated production lines with independent intellectual property rights, and has established a water source environmental protection and water products quality control system. As a result, a variety of 'Tianmei' series of drinking water products have been developed and produced, all of which are directly filled in the water source area of the original forest nature reserve in the golden climatic zone of 25 degrees north latitude.",
+      "secTitle2":"HealthTrace conducts traceability management towards the whole processes of Tianmei from water source collection in the water source area to filling process,packaging product checking, sorting transport and terminal sales:"
     },
     "item1":{
-      "title":"1. water source tracked",
-      "des":"By connecting the water quality inspection equipment of the water source area to the HealthTrace system, the water source field is monitored and monitored in real time, and the water quality pollution is timely reported to the police."
+      "title":"1. Water Source Area Tracking",
+      "des":"Connect HealthTrace system to the water source area by putting the water quality inspection equipment in the water source area, real-time tracking and monitoring to the water source area. Thus it will alarm on time if the water is polluted.water source area. Thus it will alarm on time if the water is polluted."
     },
     "item2":{
-      "title":"2. tank production link",
-      "des":"By connecting the video surveillance into the HealthTrace, the whole process of canning of the self operated aquatic products is supervised and managed, and the quality inspection report of the bottled container is entered into the system, so as to improve the control of the process of the canning production."
+      "title":"2. Canning Production",
+      "des":"Supervise and manage the whole canning process of Tianmei proprietary water products by link video monitoring with HealthTrace, and input quality report of bottled container into the system to supervise and increase Tianmei’s control of canning production process."
     },
     "item3":{
-      "title":"3. self inspection before the start of the game",
-      "des":"Set up self inspection procedure, check all bottled aquatic products before going out of factory, input test reports into the system, and give warnings to abnormal products."
+      "title":"3 .Pre-delivery Self-inspection",
+      "des":"Set self-inspection program to conduct sampling inspection to all bottled water products before delivery, input inspection report into system and send warnings for abnormal products."
     },
     "item4":{
-      "title":"4. transport link",
-      "des":"To monitor the distribution time, route and inspection confirmation of all transportation vehicles, to prevent the illegal traders from using counterfeit and inferior products to replace the beautiful self - operated aquatic products, which will affect the brand of Tian Mei."
+      "title":"4. Transportation Link",
+      "des":"Supervise delivery time, route, receiving and inspection confirmation form to prevent illegal merchants from replacing Tainmei’s proprietary water products with counterfeit and shoddy products which may effect Tianmei brand."
     },
     "item5":{
-      "title":"5. circulation and sales link",
-      "des":"The information of all kinds of links is summarized into HealthTrace, and the information of uniform and strict industry product is compared with that of Tian Mei bottled water products. It is easy for consumers to see which indexes are qualified or superior to industry standards, which highlights the advantages of the fine quality of the aquatic products."
+      "title":"5. Circulation and Sales",
+      "des":"Summarize the above information from various aspects into HealthTrace, and compare the uniform and strict industry product standards with the information of Tianmei bottled water products so that consumers can easily find out which indicators are qualified or better than the industry standards, which highlights the superior quality of Tianmei water products."
     }
   },
   "fruitPage":{
-    "title":"Traceability of the supply chain of fruit and vegetable juice drinks",
-    "summary":"The frequent occurrence of food safety problems in the fruit and vegetable juice industry alarm us. The industry chain of fruit and vegetable juice beverage industry is long, and the product adds more elements. It is difficult to keep track of the quality and safety of all links. This is the most important factor affecting the quality and safety of the beverage. Therefore, the fruit and vegetable juice and beverage industry is in urgent need of traceability technology that can be tracked by the whole industry chain.",
+    "title":"Fruit and Vegetable Beverage Industry",
+    "summary":"The frequent occurrence of food safety problems in the fruit and vegetable beverage industry has given us a wake-up call. The industry chain of the fruit and vegetable beverage industry is relatively long and there are many additional product elements. It is difficult to track and ensure the quality and safety of all aspects, which is the most important factor affecting the quality and safety of beverages. Therefore, the fruit and vegetable e beverage industry urgently needs product traceability technology that can make tracing throughout the entire industry chain.",
     "case":{
       "title":"case",
-      "secTitle1":"Bojun Agriculture Holdings Limited",
-      "info":"Bo Jun agriculture is a large fruit and vegetable juice beverage research and development and production enterprise, its Chinese entity operation subsidiary is the only Nanfeng orange fruit vinegar producer in the country. Bo Jun agriculture was officially listed on the Australian Stock Exchange (ASX) in December 1, 2017. By establishing long-term cooperative relations with fixed fruit suppliers, logistics companies and regional agents, Bo Jun's agriculture strictly controls the quality of raw materials and products. Bo Jun agriculture has a very strict process quality inspection system in all aspects of production to ensure that the best quality vinegar beverage can be produced in all aspects. Bo Jun agriculture is committed to becoming a leader in the natural fruit and vegetable juice beverage industry with high quality standards. As a beverage producer with fruit agricultural products as the main raw material, Bo Jun agriculture has a strong demand for the quality control of its products, and HealthTrace can meet the demand of its quality control.",
-      "secTitle2":"Tracking and managing the whole process of Bo Jun agriculture from fruit purchasing to raw material transportation, production, processing, distribution and sales:"
+      "secTitle1":"Case-Bojun Agriculture Holdings Limited (Bojun Agriculture Holdings Limited, referred to as 'Bojun Agriculture', ASX Code: BAH)",
+      "info":"Bojun Agriculture is a large-scaled fruit and vegetable beverage research,development and production enterprise, and its China entity operating subsidiary is the only manufacturer of Nanfeng Mandarin fermentated beverage in the country. Bojun Agriculture officially listed on the Australian Securities Exchange (ASX) on December 1, 2017. Bojun Agriculture established long-term cooperative relationships with fixed fruit suppliers, logistics companies and regional agents to strictly control the quality of raw materials and products. Bojun Agriculture also has a very strict process quality inspection system in all aspects of production to ensure that the best quality cfermentated beverages can be produced. Bojun Agriculture adheres to high quality standards and is committed to becoming a leader in the natural fruit and vegetable beverage industry.",
+      "info1":"Bojun Agriculture, as a beverage producer which uses fruit agricultural products as the main raw material, has a strong demand for the quality control of its products,and HealthTrace can exactly meet its requirements of enhancing quality control.",
+      "secTitle2":"track and manage the whole process of Bojun Agriculture from fruit procurement to raw material transportation, production and processing, distribution and sales:"
     },
     "item1":{
-      "title":"1. fruit planting link",
-      "des":"Bo Jun agriculture and fruit suppliers to establish long-term cooperative relationship, fruit suppliers fruit supply source from the local fruit growers. In order to ensure the stability of fruit quality, Bo Jun agriculture has the right to supervise and manage the farmers' planting. Bo Jun agriculture can ask farmers to input the planting information such as the detailed process of fruit tree growth, soil environment detection and so on into HealthTrace. Tracing the source of fruit growth can lead to better product traceability."
+      "title":"1. Plantation of Fruits",
+      "des":"Bojun Agriculture establishes long-term cooperative relations with fruit suppliers and the fruit supplier's fruits are provided by local fruit farmers. To ensure the stability of fruit quality, Bojun Agriculture has the right to supervise and manage the planting of farmers.Bojun Agriculture may require farmers to input the detailed process of the fruit trees growth, soil environmental detection and other planting information into HealthTrace. Tracing from the root of the fruits growth can lead to better traceability of the products."
     },
     "item2":{
-      "title":"2. fruit procurement link",
-      "des":"The company signed a purchase agreement with the fruit supplier, and agreed on the purchase price according to the market price of the high quality fruit. Because of the advantage of being in the place of origin, the supplier can ensure that the supplier delivers the best quality fruit on time and in full. An intelligent contract is introduced through HealthTrace in this link, and a HT currency is paid to the fruit supplier to check the fruit quality at the same time. If the fruit quality appears or the fruit does not conform to the production and processing conditions of the company, the payment can be refunded and the claim disputes can be reduced."
+      "title":"2. Procurement of Fruits",
+      "des":"The company signs acquisition agreements with fruit suppliers, and stipulates the purchase price according to market price of high quality fruit. Due to the advantages of place of origin, the suppliers can provide the best quality fruit products on time.The smart contract is introduced in this link through HealthTrace and the payment is made to the fruit supplier with HT currency. At the same time, checking the quality of the fruit, if the fruit quality has a problem or the batch fruit does not meet the company's production and processing standards, it can automatically refund the money and reduce claim dispute."
     },
     "item3":{
-      "title":"3. transport link",
-      "des":"Fruit suppliers use their own mode of transportation to Bo Jun for transporting fruits in order to facilitate quality control and transportation conditions. Bo Jun agricultural procurement and transportation partners for the same business, but also facilitate the division of responsibilities. In this link, HealthTrace will track and check the temperature control, transportation path and time of the transport vehicle and record it. After the end of the acceptance of the fruit, the two sides can directly deal with the transaction settlement. Because there are HealthTrace records in the procurement and transportation of fruit, if the fruit quality problems are found in the acceptance of the fruit, the specific link responsible for the failure of the fruit is also clear."
+      "title":"3. Transportation",
+      "des":"The fruit supplier uses its own mode of transportation when transport fruits to Bojun Agriculture. In order to contrl the quality and manage the transportation condition. The purchase and transport partners of Bojun Agriculture are the same,which also facilitates the division of responsibilities.In this link, HealthTrace will track the temperature control, transportation path and time of the transport vehicle and record it. The parties can settle the transaction directly after the fruits acceptance. Due to the existing HealthTrace records both in the fruit procurement and transportation links, if Bojun Agriculture find the fruit quality problems during the acceptance, it can also clarify the specific link responsible person of the unqualified fruit product."
     },
     "item4":{
-      "title":"4. production link",
-      "des":"After receiving raw materials, Bo Jun will produce fruit vinegar drinks in its own factories and outsourced factories until the finished products are bottled (or cans) for sale. In this link, HealthTrace will track the production of a series of production processes, such as the acceptance of raw materials, pesticide detection, juice, fermentation, distribution, aging, and loading, and the actual operation of each step and the information of the person in charge will be recorded on the HealthTrace. At the same time, Bo Jun agriculture can also record the use of patent items involved in the production process to HealthTrace."
+      "title":"4. Production",
+      "des":"After receiving the raw materials, Bojun Agriculture will carry out the production and processing of the fruit vinegar beverage in its own factories and outsourcing factories until the finished bottled (or can) products are ready for sale. In this link, HealthTrace will track the acceptance warehousing of the raw materials, pesticide detection, juicing, fermentation, blending maturation, canning, and a series of situation of the production process, every step of the actual operation situation and the information of the principal will be recorded in HealthTrace. At the same time, Bojun Agriculture can also record the patent items involved in the production process into HealthTrace."
     },
     "item5":{
-      "title":"5. sales link",
-      "des":"Bo Jun has distributed fruit vinegar beverage products to regional agents in 10 provinces in China through two long-term cooperative logistics companies. The actual sales of products are directly responsible for the agents. In this link, HealthTrace will record the transportation path and real-time transportation conditions of the logistics company in real time, and the quality of the product when it is delivered to the agent. The sales information and handover certificates of regional agents will also be recorded, and the purchase and sale relationship with Bo Jun agriculture will be established through intelligent contracts. After the agent has checked the product's qualification, it can directly settle it through the intelligent contract with HT currency to Bo Jun agriculture."
+      "title":"5. Sales",
+      "des":"Bojun Agriculture distributes fruit fermented beverage products to regional agents in 10 provinces of China through two long-term cooperative logistics companies. The actual sales of the products are directly responsible by the agents.At this link, HealthTrace will record the transportation routes and real-time transportation conditions of the logistics company's delivery of products, and the quality of the products when they are delivered to the agents. The sales information and transfer receipts of all regional agents will also be recorded, and the purchase and sales relationship between the regional agents and Bojun Agriculture will be established through smart contracts. After the agents have passed the inspection of the product, it can be settled directly through the smart contracts with HT currency to Bojun Agriculture."
     },
     "item6":{
-      "title":"6. purchase link",
-      "des":"When consumers buy fruit vinegar drinks, they can scan the two-dimensional code on the package. It can check all the relevant information and quality inspection reports of the product from the purchase, transportation, production, distribution and sale of the fruit, so as to make the consumer clear the actual nutrients and ingredients of the product and judge the authenticity of the product. At the same time, we can publicize the relevant information of Bo Jun's agriculture to a certain extent, which will help to improve its brand effect, enhance competitiveness and increase market share. If the quality of the product occurs, it can also be found to be responsible for the problem in time. If it is not the responsibility of Bo Jun's agriculture, the agriculture of Bo Jun can also be 'self proof' through HealthTrace."
+      "title":"6. Purchase",
+      "des":"When consumers purchase the fermented beverages, they scan the QR code on the package to view all the relevant information and quality inspection reports for the product from fruit purchase, transportation, production, distribution and sales, so that consumers can clearly identify the actual nutrients and ingredients of the product, and determine the authenticity of the product. At the same time, it can promote the related information of Bojun Agriculture to a certain extent, which is conducive to enhancing its brand effect,improving competitiveness and increasing market share.If there is a product quality problem, it can also timely detect the problems and hold them accountable. If it is not the responsibility of Bojun Agriculture, Bojun Agriculture can 'prove their innocence ' through HealthTrace."
     }
   },
   "mediaPage":{
     "title":"Tracing the source of multimedia trade",
-    "summary":"The future of HealthTrace can be used not only for traceability of healthy foods, but also for the entire manufacturing industry. HealthTrace plans to enter the field of network security next year, among which WONHE Multimedia Commerce Ltd, an Australian listed company, already has initial cooperation intentions.",
+    "summary":"The future of HealthTrace can be used not only for traceability of healthy foods, but also for the entire manufacturing industry. HealthTrace intends to enter internet security field next, and has reached an initial intent of cooperation with WONHE Multimedia Commerce Ltd, an Australian listed company.",
     "case":{
       "title":"case",
-      "secTitle1":"WONHE Multimedia Commerce Ltd",
-      "info":"Network cooperation for high-end business and personal information technology products provider, in December 16, 2015, successfully landed on the Australian Stock Exchange. The network covers business areas including TV Internet, commercial WIFI advertising operation, Internet advertising operation, video on demand service, Internet of things technology and three network integrated integrated services. The goal of the network strategy is to establish a company matrix based product chain, with the high speed Internet content cloud platform as the core value, combined with the network ecosystem of software system and hardware equipment to provide consumers with high quality content and service, the value of the product is increasing and the whole ecological circle is flourishing and developed. . HealthTrace is expected to be applied to the company's existing multimedia home playback equipment, interactive data collection for home users, the targeted recommendation of the interactive platform, program delivery, and the implementation of the user's demand for demand on demand.",
-      "secTitle2":"HealthTrace can trace the origin of the net products as follows:"
+      "secTitle1":"WONHE Multimedia Commerce Ltd （herein after referred to as “Wonhe”, ASXcode: WMC）",
+      "info":"As the provider of high-end business and personal information technology product, Wonhe completes its successful admission to the ASX on December 16, 2015. The business of Wonheinvolves TV internet, commercial WIFI advertisement operation, internet advertisement operation,VOD service, internet of things technology and integration of three networks etc. The strategic goal of Wonhe is to, based on establishing matrix product chain, provide high-quality content and service to customers with high-speed internet content cloud platform as its core value, combined with the internet ecosystem of software system and hardware facility to increase the product value,so as to drive the prosperity and development of entire ecosphere.",
+      "secTitle2":"Wonhe is expected to apply HealthTrace to the current multimedia family player for interactive data compilation of family user, specific recommendation, program launching on interactive platform, VOD payment for user etc. The traceability by HealthTrace to the products of Wonhe are listed as follows:"
     },
     "item1":{
-      "title":"1. network technology",
-      "des":"The quality of the electronic equipment lies in its software and hardware. Through HealthTrace, it can record the network technology model (non - confidential content), that is, software, and monitor the degree of its software development."
+      "title":"1. Wonhe Technology Building",
+      "des":"Whether the electronic devices are good or not depends on their hardware and software product conditions. With HealthTrace, you can record the status of Wonhe technology model (non-confidential content), i.e. the software, and supervise how they update and develop the software."
     },
     "item2":{
-      "title":"2. production link of hardware and equipment",
-      "des":"The hardware production process is recorded by importing the monitoring records of the net hardware production process to the HealthTrace, and the production self inspection report and the product parameters are recorded into the system. The quality of the electronic equipment lies in its software and hardware. Through HealthTrace, it can record the network technology model (non - confidential content), that is, software, and monitor the degree of its software development."
+      "title":"2. Hardware Equipment Production",
+      "des":"By inputing the monitoring records of Wonhe's hardware production process into HealthTrace, it could record its hardware production process, and enter the self-test reports and product parameters into the system."
     },
     "item3":{
-      "title":"3. transport and sales links",
-      "des":"The network can record the transportation vehicle and the acceptance check through HealthTrace, monitor the product situation after its production, prevent the counterfeit and inferior products from mixing. At the same time, consumers can understand the whole process of network electronic products from scratch by HealthTrace. HealthTrace is bound to enhance the security control ability of products, increase the transparency of product quality information and improve the market competitiveness by recording the situation of network and hardware and software."
+      "title":"3. Transportation and Sales",
+      "des":"Wonhe can record transport vehicles and acceptance orders and monitor the condition of the products after shipment to prevent the mixture of fake and shoddy products through HealthTrace.At the same time, consumers can learn the whole process of producing electronic products of Wonhe from HealthTrace.HealthTrace is bound to enhance its product safety control capability, increase the information transparency of product quality and improve its market competitiveness by recording the conditions of Wonhe hardware and software equipment."
     }
   }
 }

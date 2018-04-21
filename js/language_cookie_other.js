@@ -18,19 +18,19 @@ function getCookie(name){  //取cookies函数
 $(function() {
     //根据cookie选择语言
     if (getCookie(name)) {
-        if (getCookie(name) == "zh") {
+        if (getCookie(name) === "zh") {
             $("[data-localize]").localize("text", {
                 pathPrefix: "../lang",
                 language: "zh"
             });
             console.log("come in cookie zh");
-        }else if (getCookie(name) == "en") {
+        }else if (getCookie(name) === "en") {
             $("[data-localize]").localize("text", {
                 pathPrefix: "../lang",
                 language: "en"
             });
             console.log("come in cookie en");
-        }else if (getCookie(name) == "jp") {
+        }else if (getCookie(name) === "jp") {
             $("[data-localize]").localize("text", {
                 pathPrefix: "../lang",
                 language: "jp"

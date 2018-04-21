@@ -71,38 +71,69 @@
 </div>
 
 <div id="solutionBlock">
-    <div style="margin-left: 25%;width: 50%;height: 700px" id="distributeChart">
+    <div style="margin-left: 25%;width: 50%;height: 600px" id="distributeChart">
     </div>
 </div>
 
 
 <script type="text/javascript">
+    var name = "somoveLanguage";
+
+    function getCookie(name) {  //取cookies函数
+        var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+        if (arr != null) return unescape(arr[2]);
+        return null
+    }
+
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('distributeChart'));
-    var data = [
-        {
-            name: "流通发行",
-            value: 45
-        },
-        {
-            name: "业内人士天使轮",
-            value: 15
-        },
-        {
-            name: "营销推广",
-            value: 20
-        },
-        {
-            name: "创始团队早起持有",
-            value: 20
-        }
-    ];
+    var data;
+    if (getCookie(name) === "zh") {
+        data = [
+            {
+                name: "流通发行(45%)",
+                value: 45
+            },
+            {
+                name: "业内人士天使轮(15%)",
+                value: 15
+            },
+            {
+                name: "营销推广(20%)",
+                value: 20
+            },
+            {
+                name: "创始团队早起持有(20%)",
+                value: 20
+            }
+        ];
+    }
+    if (getCookie(name) === "en") {
+        data = [
+            {
+                name: "Circulation distribution(45%)",
+                value: 45
+            },
+            {
+                name: "Insider Angel Wheel(15%)",
+                value: 15
+            },
+            {
+                name: "Marketing(20%)",
+                value: 20
+            },
+            {
+                name: "The founding team holds(20%)",
+                value: 20
+            }
+        ];
+    }
     option = {
         series: [
             {
                 type: 'pie',
                 radius: '55%',
-                center: ['50%', '50%'],
+                center: ['50%', '40%'],
                 data: data,
                 itemStyle: {
                     emphasis: {

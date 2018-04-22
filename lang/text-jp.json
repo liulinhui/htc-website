@@ -122,25 +122,25 @@
     "secTitle": "COOPERATION PARTNER"
   },
   "news": {
-    "title": "新闻",
+    "title": "ニュース",
     "secTitle": "NEWS",
-    "list": {
-      "item1": {
-        "name": "与天美公司达成合作",
-        "summary": "与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作",
-        "link": "查看报道"
+    "list":{
+      "item1":{
+        "name":"Cooperation with the company of Tian Mei",
+        "summary":"Cooperation with the company of Tian MeiCooperation with the company of Tian MeiCooperation with the company of Tian Mei",
+        "link":"View"
       },
-      "item2": {
-        "name": "与天美公司达成合作",
-        "summary": "与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作与天美公司达成合作",
-        "link": "查看报道"
+      "item2":{
+        "name":"Cooperation with the company of Tian Mei",
+        "summary":"Cooperation with the company of Tian MeiCooperation with the company of Tian MeiCooperation with the company of Tian Mei",
+        "link":"View"
       }
     }
   },
   "contact": {
-    "phone": "电话：+61 412 927 796",
-    "email": "邮箱：webmaster@jaz-int",
-    "adress": "地址：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia"
+    "phone": "電話：+61 412 927 796",
+    "email": "メール：webmaster@jaz-int",
+    "adress": "住所：9A/139 Minjungbal Drive Tweed Heads South NSW 2486 Australia"
   },
   "contactUs": {
     "title": "問い合わせ",

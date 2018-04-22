@@ -90,16 +90,16 @@ var titleTranslate = {
         contractUs: "Contact Us"
     },
     jp: {
-        water: "",
-        video: "",
-        solution: "",
-        roadmap: "",
-        qa: "",
-        prospects: "",
+        water: "ボトルウオーター業界",
+        video: "ミニビデオ",
+        solution: "業界のソリューション",
+        roadmap: "技術ロードマップ",
+        qa: "よくある問題点",
+        prospects: "発展の見通し",
         mediaTrade: "",
-        fruit: "",
-        distribute: "",
-        description: "",
-        contractUs: ""
+        fruit: "乳製品業界",
+        distribute: "分配計画",
+        description: "プロジェクト説明",
+        contractUs: "問い合わせ"
     }
 }

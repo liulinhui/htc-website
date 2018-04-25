@@ -109,4 +109,8 @@
 }
 .news-detail .rich-text {
   font-size: 16px;
+  line-height: 24px;
+}
+.news-detail .rich-text img {
+  max-width: 100%;
 }

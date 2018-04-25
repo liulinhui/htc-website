@@ -54,6 +54,11 @@ body{
     text-decoration: none;
     background-color: transparent;
 }
+.navWrap .nav .navigation .active a{
+    color: #73799c;
+    text-decoration: none;
+    background-color: transparent;
+}
 .navWrap .nav .navigation li a:link{
     text-decoration: none;
 }

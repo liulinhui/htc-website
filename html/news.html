@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="../css/nav.css"/>
     <link rel="stylesheet" href="../css/news.css">
     <link rel="stylesheet" href="../css/footer.css"/>
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="../lib/jquery/jquery-2.2.4.min.js"></script>
     <script src="../lib/jquery.localize.js" type="text/javascript"></script>
     <script src="../js/language_cookie_other.js" type="text/javascript"></script>
     <script src="../js/switchLan.js" type="text/javascript"></script>
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <script>
     setTitle("news")
@@ -43,7 +45,7 @@
         <h3 data-localize="news.title">新闻</h3>
         <div class="sec-title" data-localize="news.secTitle">NEWS</div>
     </div>
-    <ul>
+    <ul class="news-list">
         <li>
             <h5>新闻1新闻1新闻1新闻1新闻1新闻1新闻1</h5>
             <h6>2018-4-20</h6>
@@ -69,6 +71,25 @@
             <a href="">查看报道</a>
         </li>
     </ul>
+    <nav aria-label="Page navigation" class="pagination-box">
+        <ul class="pagination">
+            <li>
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </div>
 
 <div class="footer">

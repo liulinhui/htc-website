@@ -39,15 +39,15 @@
   color: #c5c7cb;
   margin: 10px 0 14px;
 }
-.news ul {
+.news .news-list {
   width: 970px;
   margin: 0 auto 50px auto;
 }
-.news ul li {
+.news .news-list li {
   padding: 50px 0 40px 0;
   border-bottom: 1px solid #EDEDED;
 }
-.news ul li h5 {
+.news .news-list li h5 {
   font-size: 24px;
   font-family: PingFangSC-Medium;
   color: #4c5155;
@@ -55,7 +55,7 @@
   margin: 0 0 20px;
   font-weight: 500;
 }
-.news ul li h6 {
+.news .news-list li h6 {
   font-size: 16px;
   font-family: Ubuntu;
   color: #8c8c8c;
@@ -63,16 +63,25 @@
   margin: 0 0 15px 0;
   font-weight: 500;
 }
-.news ul li p {
+.news .news-list li p {
   font-size: 16px;
   font-family: Ubuntu;
   color: #4c5155;
   line-height: 28px;
   margin: 0 0 13px 0;
 }
-.news ul li a {
+.news .news-list li a {
   font-size: 16px;
   font-family: PingFangSC-Regular;
   color: #3291ff;
   line-height: 22px;
+}
+.news .pagination-box {
+  width: 970px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.news .pagination-box .pagination {
+  margin: 0 0 50px 0;
 }

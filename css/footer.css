@@ -1,5 +1,5 @@
 .footer{
-    width: 100%;
+    min-width: 1200px;
     background-color: #f1f5f8;
 }
 .footer .contact{

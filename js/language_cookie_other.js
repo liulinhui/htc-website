@@ -74,7 +74,8 @@ var titleTranslate = {
         fruit: "果蔬汁饮料供应链溯源",
         distribute: "分配计划",
         description: "项目描述",
-        contractUs: "联系我们"
+        contractUs: "联系我们",
+        news: "新闻"
     },
     en: {
         water: "Bottled Water Industry",
@@ -87,7 +88,8 @@ var titleTranslate = {
         fruit: "Fruit and Vegetable Beverage Industry",
         distribute: "Distribute Plan",
         description: "Description",
-        contractUs: "Contact Us"
+        contractUs: "Contact Us",
+        news: "news"
     },
     jp: {
         water: "ボトルウオーター業界",
@@ -100,6 +102,7 @@ var titleTranslate = {
         fruit: "乳製品業界",
         distribute: "分配計画",
         description: "プロジェクト説明",
-        contractUs: "問い合わせ"
+        contractUs: "問い合わせ",
+        news: "ニュース"
     }
 }

@@ -8,12 +8,10 @@
     <link rel="stylesheet" href="../css/nav.css"/>
     <link rel="stylesheet" href="../css/news.css">
     <link rel="stylesheet" href="../css/footer.css"/>
-    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="../lib/jquery/jquery-2.2.4.min.js"></script>
     <script src="../lib/jquery.localize.js" type="text/javascript"></script>
     <script src="../js/language_cookie_other.js" type="text/javascript"></script>
     <script src="../js/switchLan.js" type="text/javascript"></script>
-    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <script>
     setTitle("news")
@@ -24,12 +22,13 @@
         <div class="logo"><a href="../index.html"><img src="../images/logo_header_other@2x.png"/></a></div>
         <ul class="navigation">
             <li><a target="_blank" href="../whitePaper/htc-whitePaper-zh.pdf" data-localize="nav.menu1">白皮书</a></li>
-            <li><a href="solution.html"  data-localize="nav.menu2">解决方案</a></li>
-            <li class="active"><a href="news.html"  data-localize="nav.menu3">新闻</a></li>
-            <li><a href="qa.html"  data-localize="nav.menu4">常见问题</a></li>
-            <li><a href="contractUs.html"  data-localize="nav.menu5">联系我们</a></li>
+            <li><a href="solution.html" data-localize="nav.menu2">解决方案</a></li>
+            <li class="active"><a href="news.html" data-localize="nav.menu3">新闻</a></li>
+            <li><a href="qa.html" data-localize="nav.menu4">常见问题</a></li>
+            <li><a href="contractUs.html" data-localize="nav.menu5">联系我们</a></li>
             <li class="language">
-                <img src="../images/icon_flag_china@2x.png"  data-localize="nav.icon_other"/><a href="#"  data-localize="nav.menu6">简体中文</a>
+                <img src="../images/icon_flag_china@2x.png" data-localize="nav.icon_other"/><a href="#"
+                                                                                               data-localize="nav.menu6">简体中文</a>
                 <ul>
                     <li class="zh"><img src="../images/icon_flag_china@2x.png"/><a>简体中文</a></li>
                     <li class="en"><img src="../images/icon_flag_eng@2x.png"/><a>English</a></li>
@@ -71,25 +70,17 @@
             <a href="">查看报道</a>
         </li>
     </ul>
-    <nav aria-label="Page navigation" class="pagination-box">
-        <ul class="pagination">
-            <li>
-                <a href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-            </li>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li>
-                <a href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+</div>
+
+<div id="hideNews" style="display: none">
+    <ul>
+        <li>
+            <h5></h5>
+            <h6></h6>
+            <p></p>
+            <a href="">查看报道</a>
+        </li>
+    </ul>
 </div>
 
 <div class="footer">
@@ -116,4 +107,33 @@
     </div>
 </div>
 </body>
+<script>
+    $(document).ready(function () {
+        var newsList = $('.news-list');
+        var data = [{
+            title: '新闻1新闻1新闻1新闻1新闻1新闻1新闻1',
+            time: '2018-4-20',
+            draft: '是基于区块链的健康产品追踪数据中心，以追踪新一代健康产品的生产流通环节为核心目标，利用区块链技术和智能合约技术提高交易的透明度，降低欺诈风险。',
+            id: '123'
+        }];
+        newsList.html(generateNews(data))
+
+        /**
+         * 构造新闻
+         * @param data
+         */
+        function generateNews(data) {
+            var result = '';
+            var template = $('#hideNews').find('ul');
+            data.forEach(function (value) {
+                template.find('h5').html(value.title);
+                template.find('h6').html(value.time);
+                template.find('p').html(value.draft);
+                template.find('a').attr('href', 'http://www.baidu.com?id' + value.id);
+                result += template.html();
+            });
+            return result;
+        }
+    })
+</script>
 </html>

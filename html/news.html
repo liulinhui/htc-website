@@ -89,7 +89,7 @@
         var language = getCookie(name); //获取语言
         var page = 1;
 
-        $.get("http://www.healthtracechain.com:3000/newsInterface/list?page=" + page + "&limit=5&language=" + language, function (res) {
+        $.get("http://www.healthtracechain.com:3000/newsInterface/list?language=" + language, function (res) {
             var data = res.data;
             newsList.html(generateNews(data));
         });

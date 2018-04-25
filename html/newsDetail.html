@@ -13,9 +13,6 @@
     <script src="../js/language_cookie_other.js" type="text/javascript"></script>
     <script src="../js/switchLan.js" type="text/javascript"></script>
 </head>
-<script>
-    setTitle("newsDetail")
-</script>
 <body>
 <div class="navWrap">
     <div class="nav">
@@ -43,9 +40,6 @@
     <h5>中国2030年或将实现载人登月 下一目标：送人到火星！</h5>
     <h6>2018-4-20</h6>
     <div class="rich-text">
-        <p>4月24日是第三个中国航天日，国家航天局、中国航天科技集团的多位专家接受了央视记者的独家专访，透露了我国正在或即将展开的多项重大航天规划。今年我国将有哪些重大航天发射任务？探月工程又有什么大动作？ 年底发射“嫦娥四号” 首探月球背面 首先，在运载火箭方面，我国目前运载能力最强的“长征五号”，将在年底迎来第三次试验飞行。2017年7月2日，“长征五号”曾在第二次飞行试验中因故障造成发射失败，目前事故原因已查明。据国家航天局秘书长、国防科工局总工程师田玉龙介绍，“长征五号”完成第三次飞行后，后续将实施探月工程三期“嫦娥五号”探测器发射任务。 </p>
-        <img src="../images/pic_solution1@2x.png" alt="">
-        <p>天宫一号、神舟八号对接效果图/资料图 对于广受关注的探月工程，专家介绍，我国计划在今年年底发射“嫦娥四号”，展开人类探测器首次对月球背面的探测。</p>
     </div>
 </div>
 
@@ -75,31 +69,43 @@
 </body>
 <script>
     $(document).ready(function () {
-        var newsList = $('.news-list');
-        var data = [{
-            title: '新闻1新闻1新闻1新闻1新闻1新闻1新闻1',
-            time: '2018-4-20',
-            draft: '是基于区块链的健康产品追踪数据中心，以追踪新一代健康产品的生产流通环节为核心目标，利用区块链技术和智能合约技术提高交易的透明度，降低欺诈风险。',
-            id: '123'
-        }];
-        newsList.html(generateNews(data))
+        var newsDetail = $('.news-detail');
+        var api = 'http://www.healthtracechain.com:3000/newsInterface/details?id=';
 
-        /**
-         * 构造新闻
-         * @param data
-         */
-        function generateNews(data) {
-            var result = '';
-            var template = $('#hideNews').find('ul');
-            data.forEach(function (value) {
-                template.find('h5').html(value.title);
-                template.find('h6').html(value.time);
-                template.find('p').html(value.draft);
-                template.find('a').attr('href', 'http://www.baidu.com?id' + value.id);
-                result += template.html();
-            });
-            return result;
+        function getQueryString() {
+            var qs = location.search.substr(1), // 获取url中"?"符后的字串
+                args = {}, // 保存参数数据的对象
+                items = qs.length ? qs.split("&") : [], // 取得每一个参数项,
+                item = null,
+                len = items.length;
+
+            for (var i = 0; i < len; i++) {
+                item = items[i].split("=");
+                var name = decodeURIComponent(item[0]),
+                    value = decodeURIComponent(item[1]);
+                if (name) {
+                    args[name] = value;
+                }
+            }
+            return args;
         }
+
+        var qs = getQueryString();
+        var id = qs['id'];
+        $.ajax({
+            type: "get",
+            url: api + id,
+            async: false,
+            dataType: 'JSON',
+            success: function (res) {
+                console.log(res);
+                newsDetail.find('h5').html(res.title);
+                newsDetail.find('h6').html(res.time);
+                newsDetail.find('.rich-text').html(res.text)
+            }, error: function (res) {
+                console.log(res);
+            }
+        })
     })
 </script>
 </html>

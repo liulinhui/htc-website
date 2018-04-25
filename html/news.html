@@ -45,30 +45,6 @@
         <div class="sec-title" data-localize="news.secTitle">NEWS</div>
     </div>
     <ul class="news-list">
-        <li>
-            <h5>新闻1新闻1新闻1新闻1新闻1新闻1新闻1</h5>
-            <h6>2018-4-20</h6>
-            <p>是基于区块链的健康产品追踪数据中心，以追踪新一代健康产品的生产流通环节为核心目标，利用区块链技术和智能合约技术提高交易的透明度，降低欺诈风险。</p>
-            <a href="newsDetail.html">查看报道</a>
-        </li>
-        <li>
-            <h5>新闻1新闻1新闻1新闻1新闻1新闻1新闻1</h5>
-            <h6>2018-4-20</h6>
-            <p>是基于区块链的健康产品追踪数据中心，以追踪新一代健康产品的生产流通环节为核心目标，利用区块链技术和智能合约技术提高交易的透明度，降低欺诈风险。</p>
-            <a href="">查看报道</a>
-        </li>
-        <li>
-            <h5>新闻1新闻1新闻1新闻1新闻1新闻1新闻1</h5>
-            <h6>2018-4-20</h6>
-            <p>是基于区块链的健康产品追踪数据中心，以追踪新一代健康产品的生产流通环节为核心目标，利用区块链技术和智能合约技术提高交易的透明度，降低欺诈风险。</p>
-            <a href="">查看报道</a>
-        </li>
-        <li>
-            <h5>新闻1新闻1新闻1新闻1新闻1新闻1新闻1</h5>
-            <h6>2018-4-20</h6>
-            <p>是基于区块链的健康产品追踪数据中心，以追踪新一代健康产品的生产流通环节为核心目标，利用区块链技术和智能合约技术提高交易的透明度，降低欺诈风险。</p>
-            <a href="">查看报道</a>
-        </li>
     </ul>
 </div>
 
@@ -110,13 +86,13 @@
 <script>
     $(document).ready(function () {
         var newsList = $('.news-list');
-        var data = [{
-            title: '新闻1新闻1新闻1新闻1新闻1新闻1新闻1',
-            time: '2018-4-20',
-            draft: '是基于区块链的健康产品追踪数据中心，以追踪新一代健康产品的生产流通环节为核心目标，利用区块链技术和智能合约技术提高交易的透明度，降低欺诈风险。',
-            id: '123'
-        }];
-        newsList.html(generateNews(data))
+        var language = getCookie(name); //获取语言
+        var page = 1;
+
+        $.get("http://www.healthtracechain.com:3000/newsInterface/list?page=" + page + "&limit=5&language=" + language, function (res) {
+            var data = res.data;
+            newsList.html(generateNews(data));
+        });
 
         /**
          * 构造新闻
@@ -129,7 +105,7 @@
                 template.find('h5').html(value.title);
                 template.find('h6').html(value.time);
                 template.find('p').html(value.draft);
-                template.find('a').attr('href', 'newsDetail.html?id' + value.id);
+                template.find('a').attr('href', 'newsDetail.html?id=' + value.id);
                 result += template.html();
             });
             return result;

@@ -37,8 +37,8 @@
 </div>
 
 <div class="news-detail">
-    <h5>中国2030年或将实现载人登月 下一目标：送人到火星！</h5>
-    <h6>2018-4-20</h6>
+    <h5></h5>
+    <h6></h6>
     <div class="rich-text">
     </div>
 </div>
@@ -100,7 +100,8 @@
             success: function (res) {
                 console.log(res);
                 newsDetail.find('h5').html(res.title);
-                newsDetail.find('h6').html(res.time);
+                document.title = res.title;
+                newsDetail.find('h6').html(res.realtime);
                 newsDetail.find('.rich-text').html(res.text)
             }, error: function (res) {
                 console.log(res);

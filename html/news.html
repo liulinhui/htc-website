@@ -103,7 +103,7 @@
             var template = $('#hideNews').find('ul');
             data.forEach(function (value) {
                 template.find('h5').html(value.title);
-                template.find('h6').html(value.time);
+                template.find('h6').html(value.realtime);
                 template.find('p').html(value.draft);
                 template.find('a').attr('href', 'newsDetail.html?id=' + value.id);
                 result += template.html();
